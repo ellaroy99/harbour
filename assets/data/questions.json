@@ -99,37 +99,37 @@
     },
     {
         "id":15,
-        "attribute":"",
-        "axis":,
-        "content":"",
+        "attribute":"Introvert",
+        "axis":1,
+        "content":"You find parties more draining than energizing.",
         "value":0
     },
     {
         "id":16,
-        "attribute":"",
-        "axis":,
-        "content":"",
+        "attribute":"Introvert",
+        "axis":1,
+        "content":"You have been described as quiet, shy, or reserved.",
         "value":0
     },
     {
         "id":17,
-        "attribute":"",
-        "axis":,
-        "content":"",
+        "attribute":"Extrovert",
+        "axis":2,
+        "content":"In your downtime, you feel the urge to socialize or spend time with friends.",
         "value":0
     },
     {
         "id":18,
-        "attribute":"",
-        "axis":,
-        "content":"",
+        "attribute":"Introvert",
+        "axis"1:,
+        "content":"Your ideal birthday party involves a few close friends and/or family, as opposed to a large group of friends.",
         "value":0
     },
     {
         "id":19,
-        "attribute":"",
-        "axis":,
-        "content":"",
+        "attribute":"Introvert",
+        "axis":1,
+        "content":"You would rather write a paper or article about the climate crisis than give a TED Talk about the climate crisis.",
         "value":0
     },
     {
@@ -141,72 +141,72 @@
     },
     {
         "id":21,
-        "attribute":"",
-        "axis":,
-        "content":"",
+        "attribute":"Creator",
+        "axis":5,
+        "content":"Given the choice, you’d rather write an essay than take a multiple choice test.",
         "value":0
     },
     {
         "id":22,
-        "attribute":"",
-        "axis":,
-        "content":"",
+        "attribute":"Creator",
+        "axis":5,
+        "content":"When you consume a piece of art (a movie, a painting, a song), you think about how you would have done it differently/similarly.",
         "value":0
     },
     {
         "id":23,
-        "attribute":"",
-        "axis":,
-        "content":"",
+        "attribute":"Creator",
+        "axis":5,
+        "content":"You think that rules are meant to be broken.",
         "value":0
     },
     {
         "id":24,
-        "attribute":"",
-        "axis":,
-        "content":"",
+        "attribute":"Non-Creator",
+        "axis":6,
+        "content":"You think that the solution(s) to the climate crisis already exist and we’re just not doing them—there’s no real need to come up with new solutions.",
         "value":0
     },
     {
         "id":25,
-        "attribute":"",
-        "axis":,
-        "content":"",
+        "attribute":"Creator",
+        "axis":5,
+        "content":"A blank page excites you more than it intimidates you.",
         "value":0
     },
     {
         "id":26,
-        "attribute":"",
-        "axis":,
-        "content":"",
+        "attribute":"Creator",
+        "axis":5,
+        "content":"You like to express yourself by making things.",
         "value":0
     },
     {
         "id":27,
-        "attribute":"",
-        "axis":,
-        "content":"",
+        "attribute":"Creator",
+        "axis":5,
+        "content":"Whether it’s writing, painting, building, etc.—you often have the urge to create things.",
         "value":0
     },
     {
         "id":28,
-        "attribute":"",
-        "axis":,
-        "content":"",
+        "attribute":"Non-Creator",
+        "axis":6,
+        "content":"If money was of no concern, you would rather move into a beautifully furnished apartment instead of picking out the furniture for yourself.",
         "value":0
     },
     {
         "id":29,
-        "attribute":"",
-        "axis":,
-        "content":"",
+        "attribute":"Non-Creator",
+        "axis":6,
+        "content":"You would rather carry out an established plan, as opposed to formulating the plan.",
         "value":0
     },
     {
         "id":30,
-        "attribute":"",
-        "axis":,
-        "content":"",
+        "attribute":"Creator",
+        "axis":5,
+        "content":"When you’re cooking, you treat recipes more as inspiration than as instructions.",
         "value":0
     },
 ]
