@@ -54,9 +54,9 @@ const Home = ({ homepage }) => {
 
     let code = "";
 
-    code += IE >= 15 ? "I" : "E";
-    code += FT >= 15 ? "F" : "T";
-    code += CN >= 15 ? "C" : "N";
+    code += IE >= 30 ? "I" : "E";
+    code += FT >= 30 ? "F" : "T";
+    code += CN >= 30 ? "C" : "N";
 
     return <>All questions have been answered. <br/> archetype: {archetypes[code]}</>;
     //return <>All questions have been answered. <br/>I/E: {IE},<br/> F/T: {FT}, <br/> C/N: {CN},<br/> result: {code} <br/> archetype: {archetypes[code]}</>;
@@ -86,7 +86,7 @@ const Home = ({ homepage }) => {
           </div>
 
           <p>{result}</p>
-          {/* <ul>
+          {/*<ul>
             <>{ profile.map((q, index) => { return <li key={index}>{q.id} : {q.value}</li>; })}</>
             </ul>*/}
         </div>
