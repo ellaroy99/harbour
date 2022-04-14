@@ -157,8 +157,11 @@ a:visited { color: inherit; text-decoration: none }
 .radio input:nth-of-type(4):checked ~ .labels label:nth-of-type(4) .checkmark { background-color: var(--dorange); }
 .radio input:nth-of-type(5):checked ~ .labels label:nth-of-type(5) .checkmark { background-color: var(--dorange); }
 
-.results {
+.quiz-con {
   display: flex;
-  column-gap: 50px;
+  column-gap: 20px;
 }
-.results > * { margin-top: 0px }
+.quiz-con > div:first-of-type { flex-basis: 70% }
+.quiz-con > ul { flex-basis: 10% }
+.quiz-con > p { flex-basis: 20% }
+.quiz-con > ul, .quiz-con > p { position: sticky; top: 10px; height: max-content }

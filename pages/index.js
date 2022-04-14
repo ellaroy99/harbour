@@ -15,7 +15,7 @@ const Home = ({ homepage }) => {
   // tracks what questions have been answered
   let [answered, answeredUpdate] = useState([]);
   // display of answer
-  let [result, resultUpdate] = useState("");
+  let [result, resultUpdate] = useState("Answer all questions to see your results.");
 
   let onChangeValue = (event) => {
     // add this question to answered list
@@ -79,13 +79,11 @@ const Home = ({ homepage }) => {
           <Spacer h="140px" />
         </div>
 
-        <div onChange={onChangeValue} className="form">
-          <>{ profile.map((q, index) => { return <Question key={index} content={profile[index].content} name={profile[index].id}/>; })}</>
-        </div>
+        <div className="quiz-con">
+          <div onChange={onChangeValue} className="form">
+            <>{ profile.map((q, index) => { return <Question key={index} content={profile[index].content} name={profile[index].id}/>; })}</>
+          </div>
 
-        <Spacer h="50px" />
-
-        <div className="results">
           <p>{result}</p>
           <ul>
             <>{ profile.map((q, index) => { return <li key={index}>{q.id} : {q.value}</li>; })}</>
