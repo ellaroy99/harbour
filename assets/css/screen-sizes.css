@@ -1,0 +1,136 @@
+/* these are for specific style changed between mobile and desktop */
+@media only screen and (max-width: 767px) {
+  .reg { display: none !important }
+  br { display: none !important }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .mobile { display: none !important }
+}
+
+
+
+
+
+#main-content { width: var(--content-width); transition: .8s ease-out; margin-left: auto; margin-right: auto }
+
+/* here we set the basics. each size has a dedicated variable, which will be tweaked for each screen size below.*/
+/* each screen size also has a foundational font size var to make the size measurements relative to the size of an h6 */
+
+/* each size is labeled with its corresponding size in the figma mock  */
+/* 110 */
+h1 { font-size: calc(var(--h1) * var(--font-size)) }
+
+/* 90 */
+h2 { font-size: calc(var(--h2) * var(--font-size)) }
+
+/* 70 */
+h3 { font-size: calc(var(--h3) * var(--font-size)) }
+
+/* 40 */
+h4 { font-size: calc(var(--h4) * var(--font-size)) }
+
+/* 35 */
+h5 { font-size: calc(var(--h5) * var(--font-size)) }
+
+/* 25 */
+h6 { font-size: calc(var(--h6) * var(--font-size)) }
+
+/* 30 */
+p,a{ font-size: calc(var(--pa) * var(--font-size)) }
+
+
+
+@media only screen and (min-width: 600px) {
+  :root { --content-width: 550px }
+  :root { --font-size: 15px }
+
+  :root { --h1: 3.1 }
+  :root { --h2: 2.5 }
+  :root { --h3: 2 }
+  :root { --h4: 1.4 }
+  :root { --h5: 1.2 }
+  :root { --h6: 1 }
+  :root { --pa: 1.1 }
+}
+
+@media only screen and (min-width: 425px) {
+  :root { --content-width: 380px }
+  :root { --font-size: 15px }
+
+  :root { --h1: 3.3 }
+  :root { --h2: 2.5 }
+  :root { --h3: 2.2 }
+  :root { --h4: 1.4 }
+  :root { --h5: 1.2 }
+  :root { --h6: 1 }
+  :root { --pa: 1.1 }
+}
+
+@media only screen and (max-width: 424px) {
+  :root { --content-width: 290px }
+  :root { --font-size: 15px }
+
+  :root { --h1: 2.5 }
+  :root { --h2: 2.25 }
+  :root { --h3: 2.4 }
+  :root { --h4: 1.4 }
+  :root { --h5: 1.3 }
+  :root { --h6: 1 }
+  :root { --pa: 1.1 }
+}
+/* here and below is ""DESKTOP"" */
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /* #main-content { width: 680px } */
+  :root { --content-width: 680px }
+  :root { --font-size: 15px }
+
+  :root { --h1: 3.3 }
+  :root { --h2: 2.5 }
+  :root { --h3: 2.2 }
+  :root { --h4: 1.4 }
+  :root { --h5: 1.2 }
+  :root { --h6: 1 }
+  :root { --pa: 1.1 }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1000px) {
+  /* #main-content { width: 862px } */
+  :root { --content-width: 862px }
+  :root { --font-size: 16px }
+
+  :root { --h1: 3.8 }
+  :root { --h2: 3.2 }
+  :root { --h3: 2.5 }
+  :root { --h4: 1.5 }
+  :root { --h5: 1.2 }
+  :root { --h6: 1 }
+  :root { --pa: 1.1 }
+}
+
+ /* Extra large devices */
+@media only screen and (min-width: 1200px) {
+  /* #main-content { width: 1050px } */
+  :root { --content-width: 1130px }
+  :root { --font-size: 19px }
+
+  :root { --h1: 4.3 }
+  :root { --h2: 3.5 }
+  :root { --h3: 2.8 }
+  :root { --h4: 1.54 }
+  :root { --h5: 1.38 }
+  :root { --h6: 1 }
+  :root { --pa: 1.2 }
+}
+
+/* Extra EXTRA Large devices */
+@media only screen and (min-width: 1640px) {
+  /* #main-content { width: 1320px } */
+  :root { --content-width: 1320px }
+  :root { --font-size: 25px }
+}

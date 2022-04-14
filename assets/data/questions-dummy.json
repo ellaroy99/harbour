@@ -1,0 +1,65 @@
+[
+    {
+        "id":1,
+        "attribute":"Introvert",
+        "axis":1,
+        "content":"You require time alone to recharge.",
+        "value":0
+    },
+    {
+        "id":2,
+        "attribute":"Creator",
+        "axis":5,
+        "content":"Given the choice, you’d rather write an essay than take a multiple choice test. ",
+        "value":0
+    },
+    {
+        "id":3,
+        "attribute":"Feeling",
+        "axis":3,
+        "content":"You follow your heart, rather than your head.",
+        "value":0
+    },
+    {
+        "id":4,
+        "attribute":"Creator",
+        "axis":5,
+        "content":"You think that rules are meant to be broken.",
+        "value":0
+    },
+    {
+        "id":5,
+        "attribute":"Extrovert",
+        "axis":2,
+        "content":"The thought of meeting new people excites you more than it intimidates you.",
+        "value":0
+    },
+    {
+        "id":6,
+        "attribute":"Feeling",
+        "axis":3,
+        "content":"If you were a professor, you would rather teach a more subjective, opinion-based course (i.e. literature, philosophy, art), rather than something like math, science, engineering, or economics.",
+        "value":0
+    },
+    {
+        "id":7,
+        "attribute":"Extrovert",
+        "axis":2,
+        "content":"If you wanted to learn more about the climate movement, you would rather go to a conference and meet folks as opposed to doing some research independently. ",
+        "value":0
+    },
+    {
+        "id":8,
+        "attribute":"Thinking",
+        "axis":4,
+        "content":"You value someone’s respect over their love.",
+        "value":0
+    },
+    {
+        "id":9,
+        "attribute":"Creator",
+        "axis":5,
+        "content":"When you consume a piece of art (a movie, a painting, a song), you think about how you would have done it differently/similarly.",
+        "value":0
+    }
+]
