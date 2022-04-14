@@ -58,7 +58,8 @@ const Home = ({ homepage }) => {
     code += FT >= 15 ? "F" : "T";
     code += CN >= 15 ? "C" : "N";
 
-    return <>All questions have been answered. <br/>I/E: {IE},<br/> F/T: {FT}, <br/> C/N: {CN},<br/> result: {code} <br/> archetype: {archetypes[code]}</>;
+    return <>All questions have been answered. <br/> archetype: {archetypes[code]}</>;
+    //return <>All questions have been answered. <br/>I/E: {IE},<br/> F/T: {FT}, <br/> C/N: {CN},<br/> result: {code} <br/> archetype: {archetypes[code]}</>;
   }
 
   let checkIE = (q) => q.axis < 3
@@ -85,9 +86,9 @@ const Home = ({ homepage }) => {
           </div>
 
           <p>{result}</p>
-          <ul>
+          {/* <ul>
             <>{ profile.map((q, index) => { return <li key={index}>{q.id} : {q.value}</li>; })}</>
-          </ul>
+            </ul>*/}
         </div>
 
         <Spacer h="50px" />
