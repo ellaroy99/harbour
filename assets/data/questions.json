@@ -1,5 +1,5 @@
 [
-        {
+    {
         "id":1,
         "attribute":"Feeling",
         "axis":3,
@@ -37,7 +37,7 @@
     {
         "id":6,
         "attribute":"Thinking",
-        "axis"4:,
+        "axis":4,
         "content":"You are more moved by facts and figures about a social issue than emotional stories about that issue.",
         "value":0
     },
@@ -128,7 +128,7 @@
     {
         "id":19,
         "attribute":"Introvert",
-        "axis"1:,
+        "axis":1,
         "content":"Your ideal birthday party involves a few close friends and/or family, as opposed to a large group of friends.",
         "value":0
     },
@@ -208,5 +208,5 @@
         "axis":5,
         "content":"When you’re cooking, you treat recipes more as inspiration than as instructions.",
         "value":0
-    },
+    }
 ]

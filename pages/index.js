@@ -5,7 +5,7 @@ import { useRef, useEffect, useState } from 'react'
 import { Layout, Spacer } from "../components/meta"
 import Question from "../components/question"
 
-import questions from "../assets/data/questions-dummy.json"
+import questions from "../assets/data/questions.json"
 import archetypes from "../assets/data/archetypes.json"
 
 const Home = ({ homepage }) => {
