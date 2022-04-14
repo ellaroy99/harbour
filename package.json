@@ -19,8 +19,6 @@
   },
   "devDependencies": {
     "eslint": "8.13.0",
-    "eslint-config-next": "12.1.4",
-    "@netlify/plugin-nextjs": "^4.0.0",
-    "netlify-cli": "^8.14.1"
+    "eslint-config-next": "12.1.4"
   }
 }
