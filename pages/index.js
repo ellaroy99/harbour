@@ -22,9 +22,9 @@ const Home = ({ homepage }) => {
     let id = Number(event.target.name);
     if(!answered.includes(id)) answeredUpdate([...answered, id]);
 
-    // depending on how the question was asked, it may be for or against a certain attribute
     let answer = Number(event.target.value);
-    if(profile[id - 1].axis % 2 == 0) answer = (5 - (answer - 1));
+    // depending on how the question was asked, it may be for or against a certain attribute
+    if(profile[id - 1].axis % 2 == 0) answer = answer * -1;
 
     // update state to reflect answer to question
     profileUpdate(prevState => (
@@ -54,12 +54,12 @@ const Home = ({ homepage }) => {
 
     let code = "";
 
-    code += IE >= 30 ? "I" : "E";
-    code += FT >= 30 ? "F" : "T";
-    code += CN >= 30 ? "C" : "N";
+    code += IE >= 0 ? "I" : "E";
+    code += FT >= 0 ? "F" : "T";
+    code += CN >= 0 ? "C" : "N";
 
-    return <>All questions have been answered. <br/> archetype: {archetypes[code]}</>;
-    //return <>All questions have been answered. <br/>I/E: {IE},<br/> F/T: {FT}, <br/> C/N: {CN},<br/> result: {code} <br/> archetype: {archetypes[code]}</>;
+    //return <>All questions have been answered. <br/> archetype: {archetypes[code]}</>;
+    return <>All questions have been answered. <br/>I/E: {IE},<br/> F/T: {FT}, <br/> C/N: {CN},<br/> result: {code} <br/> archetype: {archetypes[code]}</>;
   }
 
   let checkIE = (q) => q.axis < 3
@@ -86,9 +86,9 @@ const Home = ({ homepage }) => {
           </div>
 
           <p>{result}</p>
-          {/*<ul>
+          <ul>
             <>{ profile.map((q, index) => { return <li key={index}>{q.id} : {q.value}</li>; })}</>
-            </ul>*/}
+          </ul>
         </div>
 
         <Spacer h="50px" />
