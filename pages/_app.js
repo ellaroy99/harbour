@@ -7,16 +7,17 @@ import "../assets/css/color.css"
 import "../assets/css/screen-sizes.css"
 import 'jquery/dist/jquery.min.js'
 
-const MyApp = ({ Component, router, pageProps }) => {
+const Harbour = ({ Component, router, pageProps }) => {
 
   return (
     <>
       <Head>
       {/*gtag here*/}
       </Head>
+      {/* header here*/}
       <Component {...pageProps} key={router.route} />
     </>
   )
 }
 
-export default MyApp
+export default Harbour

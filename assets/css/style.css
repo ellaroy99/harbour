@@ -57,11 +57,13 @@ a:visited { color: inherit; text-decoration: none }
 }
 
 .arrow-link {
-  color: black;
+  color: white;
+  background-color: var(--dorange);
+  border-radius: 25px;
+  padding: 10px 30px;
+  font-style: italic;
   position: relative;
-  padding-bottom: 2px;
-  padding-right: 28px;
-  border-bottom: 1.25px solid;
+  padding-right: 40px;
   transition: .2s ease-out
 }
 
@@ -93,7 +95,6 @@ a:visited { color: inherit; text-decoration: none }
   .arrow-link::after { display: none }
 }
 
-
 .abs-center-v { margin-top: auto; margin-bottom: auto; top: 0; bottom: 0 }
 .abs-center-h { margin-left: auto; margin-right: auto; left: 0; right: 0 }
 
@@ -109,6 +110,10 @@ a:visited { color: inherit; text-decoration: none }
   width: 100vw;
   top: 0
 }
+
+/*----------- QUIZ STYLING ------------- */
+/*----------- QUIZ STYLING ------------- */
+/*----------- QUIZ STYLING ------------- */
 
 .question { margin-bottom: 75px; }
 .radio { margin-top: 20px; }
