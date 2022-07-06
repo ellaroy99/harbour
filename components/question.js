@@ -1,9 +1,19 @@
 import React from "react"
 
+import { Divider } from "./meta/divider"
+import { Spacer } from "./meta/spacer"
+
 const Question = ({ name, content }) => {
+
+  if (name % 5 == 0) var divLine = <></>;
+  else var divLine = <>
+        <Divider b={0} />
+        <Spacer h={90} />
+                     </>;
+
   return (
     <div className="question">
-        <p>{name}. {content}</p>
+        <h3>{name}. {content}</h3>
         <div className="radio">
             <input type="radio" value={-3} name={name} id={name + "-3"} />
             <input type="radio" value={-2} name={name} id={name + "-2"} />
@@ -16,7 +26,7 @@ const Question = ({ name, content }) => {
             <div className="labels">
                 <label htmlFor={name + "-3"}>
                     <span className="checkmark"/>
-                    <p>Disagree</p>
+                    <h4>Disagree</h4>
                 </label>
                 <label htmlFor={name + "-2"}>
                     <span className="checkmark"/>
@@ -35,10 +45,11 @@ const Question = ({ name, content }) => {
                 </label>
                 <label htmlFor={name + "3"}>
                     <span className="checkmark"/>
-                    <p>Agree</p>
+                    <h4>Agree</h4>
                 </label>
             </div>
         </div>
+        {divLine}
     </div>
   )
 }

@@ -2,7 +2,7 @@ import React from "react"
 //import Seo from "../components/seo"
 import { useRef, useEffect, useState } from 'react'
 
-import { Layout, Spacer } from "../components/meta"
+import { Nav, Footer, Layout, Spacer } from "../components/meta"
 import Question from "../components/question"
 
 import questions from "../assets/data/questions.json"
@@ -14,8 +14,11 @@ const Quiz = ({ homepage }) => {
   let [profile, profileUpdate] = useState(questions);
   // tracks what questions have been answered
   let [answered, answeredUpdate] = useState([]);
-  // display of answer
-  let [result, resultUpdate] = useState("Answer all questions to see your results.");
+
+  let questionsArr = [];
+  const questionsTemp = [].concat(...questions);
+  for( var i = 0; i < 6; i++)
+    questionsArr.push(questionsTemp.splice(0, 5))
 
   let onChangeValue = (event) => {
     // add this question to answered list
@@ -37,7 +40,6 @@ const Quiz = ({ homepage }) => {
       // calculate response
       var out = calcResult();
       // set state var of "output" to "all q's answered!" and whatever the response is
-      resultUpdate(out);
     };
   });
 
@@ -59,7 +61,8 @@ const Quiz = ({ homepage }) => {
     code += CN >= 0 ? "C" : "N";
 
     //return <>All questions have been answered. <br/> archetype: {archetypes[code]}</>;
-    return <>All questions have been answered. <br/>I/E: {IE},<br/> F/T: {FT}, <br/> C/N: {CN},<br/> result: {code} <br/> archetype: {archetypes[code]}</>;
+    //return <>All questions have been answered. <br/>I/E: {IE},<br/> F/T: {FT}, <br/> C/N: {CN},<br/> result: {code} <br/> archetype: {archetypes[code]}</>;
+    return <>archetype: {archetypes[code]}</>;
   }
 
   let checkIE = (q) => q.axis < 3
@@ -73,24 +76,25 @@ const Quiz = ({ homepage }) => {
     <>
       <div id="main-content">
         {/*<Seo seo={homepage.attributes.seo} />*/}
+        <Nav seo={{title:"Home", desc:""}} />
         <div className="home-head">
-          <Spacer h="100px" />
-          <h3>Climate Warriors</h3>
-          <Spacer h="140px" />
+          <Spacer h="20px" />
+          <h1>Climate Warriors</h1>
+          <Spacer h="10px" />
+          <Spacer h="10px" />
         </div>
 
         <div className="quiz-con">
           <div onChange={onChangeValue} className="form">
-            <>{ profile.map((q, index) => { return <Question key={index} content={profile[index].content} name={profile[index].id}/>; })}</>
+            <>{ questionsArr[0].map((q, index) => { return <Question key={index} content={profile[index].content} name={profile[index].id}/>; })}</>
+            <Spacer h={50}/>
+            <a className="arrow-link quizNext">Next</a>
           </div>
 
-          <p>{result}</p>
-          <ul>
-            <>{ profile.map((q, index) => { return <li key={index}>{q.id} : {q.value}</li>; })}</>
-          </ul>
         </div>
 
         <Spacer h="50px" />
+        <Footer />
 
       </div>
     </>

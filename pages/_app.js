@@ -1,6 +1,7 @@
 import App from "next/app"
 import Head from "next/head"
 import { PageTransition } from 'next-page-transitions'
+import Footer from "../components/meta/footer"
 import "../assets/css/style.css"
 import "../assets/css/font.css"
 import "../assets/css/color.css"
