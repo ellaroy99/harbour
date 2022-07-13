@@ -35,6 +35,7 @@ const About = ({ homepage }) => {
                     <li><a href="">Your Strength</a></li>
                     <li><a href="">Your Quirk</a></li>
                     <li><a href="">Your Role</a></li>
+                <Spacer h="100px"/>
                 </ul>
             </div>
             <div className="anchor-content">
@@ -70,10 +71,12 @@ const About = ({ homepage }) => {
                     holes—whether it’s a niche new hobby or an internet quiz about what climate <br/>
                     archetype you are.</p>
                 <Spacer h="100px"/>
-                <Divider />
+                <Divider b="0"/>
             </div>
 
         </div>
+
+        <Spacer h="50px"/>
 
       <div style={{ textAlign: "center" }}>
         <h1>The Artist in Action</h1>
