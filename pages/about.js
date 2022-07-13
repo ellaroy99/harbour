@@ -4,7 +4,7 @@ import Image from "next/image"
 //import Seo from "../components/seo"
 import { useRef, useEffect, useState } from 'react'
 
-import { Nav, Footer, Layout, Spacer } from "../components/meta"
+import { Nav, Footer, Layout, Spacer, Divider } from "../components/meta"
 import AboutCard from "../components/about-card"
 
 const About = ({ homepage }) => {
@@ -76,7 +76,15 @@ const About = ({ homepage }) => {
               </div>
           </div>
 
-          <Spacer h="140px" />
+          <div style={{position: "relative"}}>
+            <Spacer h="30px" />
+            <Divider />
+          </div>
+
+          <h1>Our Partners</h1>
+
+          <Spacer h="130px" />
+          <Divider b="0"/>
         </div>
 
         <div className="abt-rows">
