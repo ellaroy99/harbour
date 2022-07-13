@@ -8,6 +8,28 @@ import Timg from "../assets/img/tristan-abt.png";
 
 const About = ({ homepage }) => {
 
+    let [anchorSelect, anchorSelectUpdate] = useState(["select", "", "", ""])
+
+    let listenToScroll = () => {
+        const anchor1 = document.getElementById('anchor1').getBoundingClientRect().top + window.scrollY; // find the top position of title block
+        const anchor2 = document.getElementById('anchor2').getBoundingClientRect().top + window.scrollY; // find the top position of title block
+        const anchor3 = document.getElementById('anchor3').getBoundingClientRect().top + window.scrollY; // find the top position of title block
+        const anchor4 = document.getElementById('anchor4').getBoundingClientRect().top + window.scrollY; // find the top position of title block
+
+        const winScroll = document.body.scrollTop || document.documentElement.scrollTop
+
+        if(winScroll < anchor2) { anchorSelectUpdate(["select","","",""]) }
+        else if(winScroll > anchor2 && winScroll < anchor3) { anchorSelectUpdate(["","select","",""]) }
+        else if(winScroll > anchor3 && winScroll < anchor4) { anchorSelectUpdate(["","","select",""]) }
+        else if(winScroll > anchor4) { anchorSelectUpdate(["","","","select"]) }
+    }
+
+    // assign the scroll listener and unassign at end
+    useEffect(() => {
+        window.addEventListener('scroll', listenToScroll, { passive: true });
+        return () => { window.removeEventListener('scroll', listenToScroll); };
+    }, []);
+
   return (
     <>
       <div id="main-content">
@@ -31,15 +53,15 @@ const About = ({ homepage }) => {
         <div className="your-list">
             <div className="anchor-list-con">
                 <ul className="anchor-list">
-                    <li><a href="">Your Joy</a></li>
-                    <li><a href="">Your Strength</a></li>
-                    <li><a href="">Your Quirk</a></li>
-                    <li><a href="">Your Role</a></li>
+                    <li className={anchorSelect[0]}><a href="#anchor1">Your Joy</a></li>
+                    <li className={anchorSelect[1]}><a href="#anchor2">Your Strength</a></li>
+                    <li className={anchorSelect[2]}><a href="#anchor3">Your Quirk</a></li>
+                    <li className={anchorSelect[3]}><a href="#anchor4">Your Role</a></li>
                 <Spacer h="100px"/>
                 </ul>
             </div>
             <div className="anchor-content">
-                <img src={Timg} />
+                <img id="anchor1" src={Timg} />
                 <h2 style={{ color: "var(--dorange)", fontStyle: "italic" }}>The Artist loves exploring new <br />
                     ideas and following their passions <br />
                     to unexpected places.</h2>
@@ -47,7 +69,7 @@ const About = ({ homepage }) => {
                     holes—whether it’s a niche new hobby or an internet quiz about what climate <br/>
                     archetype you are.</p>
                 <Spacer h="50px"/>
-                <img src={Timg} />
+                <img id="anchor2" src={Timg} />
                 <h2 style={{ color: "var(--dorange)", fontStyle: "italic" }}>The Artist loves exploring new <br />
                     ideas and following their passions <br />
                     to unexpected places.</h2>
@@ -55,7 +77,7 @@ const About = ({ homepage }) => {
                     holes—whether it’s a niche new hobby or an internet quiz about what climate <br/>
                     archetype you are.</p>
                 <Spacer h="50px"/>
-                <img src={Timg} />
+                <img id="anchor3" src={Timg} />
                 <h2 style={{ color: "var(--dorange)", fontStyle: "italic" }}>The Artist loves exploring new <br />
                     ideas and following their passions <br />
                     to unexpected places.</h2>
@@ -63,7 +85,7 @@ const About = ({ homepage }) => {
                     holes—whether it’s a niche new hobby or an internet quiz about what climate <br/>
                     archetype you are.</p>
                 <Spacer h="50px"/>
-                <img src={Timg} />
+                <img id="anchor4" src={Timg} />
                 <h2 style={{ color: "var(--dorange)", fontStyle: "italic" }}>The Artist loves exploring new <br />
                     ideas and following their passions <br />
                     to unexpected places.</h2>
