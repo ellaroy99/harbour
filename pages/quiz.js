@@ -14,12 +14,44 @@ const Quiz = ({ homepage }) => {
   let [profile, profileUpdate] = useState(questions);
   // tracks what questions have been answered
   let [answered, answeredUpdate] = useState([]);
+  // tracks current page of the quiz
+  let [quizPg, quizPgUpdate] = useState(0);
+  // tracks opactity of quiz for transition state
+  let [quizOpac, quizOpacUpdate] = useState(1);
 
+  // breaks questions list into blocks of 5
   let questionsArr = [];
   const questionsTemp = [].concat(...questions);
-  for( var i = 0; i < 6; i++)
+  for( var i = 0; i < 6; i++) {
     questionsArr.push(questionsTemp.splice(0, 5))
+  }
 
+  // function to go to next page
+  let nextPage = () => {
+    // check if all the q's have been answered on this page
+    console.log(answered.length);
+    if(answered.length === quizPg*5 + 5) {
+      // scroll to top
+      window.scrollTo(0, 0);
+      //   fade to white
+      quizOpacUpdate(0);
+      setTimeout(function() {
+        // change quizPg
+        quizPgUpdate(prev => prev+1);
+        // fade back in
+        quizOpacUpdate(1);
+        // unchecks all radio buttons
+        Array.from(document.querySelectorAll("input")).forEach(
+            input => (input.checked = false)
+          );
+      }, 500);
+    }
+    else {
+      // display not all q's answered msg
+    }
+  }
+
+  // keeps a running list of what questions have been answered, and what the answers were
   let onChangeValue = (event) => {
     // add this question to answered list
     let id = Number(event.target.name);
@@ -34,14 +66,6 @@ const Quiz = ({ homepage }) => {
       prevState.map( el => el.id === id? { ...el, value: answer }: el )
     ));
   }
-
-  useEffect(() => {
-    if(answered.length == profile.length) {
-      // calculate response
-      var out = calcResult();
-      // set state var of "output" to "all q's answered!" and whatever the response is
-    };
-  });
 
   let calcResult = () => {
     // pull out questions relevant to each axis
@@ -60,16 +84,13 @@ const Quiz = ({ homepage }) => {
     code += FT >= 0 ? "F" : "T";
     code += CN >= 0 ? "C" : "N";
 
-    //return <>All questions have been answered. <br/> archetype: {archetypes[code]}</>;
-    //return <>All questions have been answered. <br/>I/E: {IE},<br/> F/T: {FT}, <br/> C/N: {CN},<br/> result: {code} <br/> archetype: {archetypes[code]}</>;
-    return <>archetype: {archetypes[code]}</>;
+    return archetypes[code];
   }
 
   let checkIE = (q) => q.axis < 3
   let checkFT = (q) => q.axis > 2 && q.axis < 5
   let checkCN = (q) => q.axis > 4
 
-  let add = (acc, x) => acc + x
   let sum = arr => arr.reduce((prev, cur) => prev + cur.value, 0);
 
   return (
@@ -84,11 +105,16 @@ const Quiz = ({ homepage }) => {
           <Spacer h="10px" />
         </div>
 
-        <div className="quiz-con">
+        <div className="quiz-con" style={{ transition: ".5s", opacity: quizOpac }}>
           <div onChange={onChangeValue} className="form">
-            <>{ questionsArr[0].map((q, index) => { return <Question key={index} content={profile[index].content} name={profile[index].id}/>; })}</>
+            <>{ questionsArr[quizPg].map((q, index) => { return <Question key={index} content={profile[quizPg*5 + index].content} name={profile[quizPg*5 + index].id}/>; })}</>
             <Spacer h={50}/>
-            <a className="arrow-link quizNext">Next</a>
+            {quizPg < 5 &&
+              <a onClick={nextPage} className="arrow-link quizNext">Next</a>
+            }
+            {quizPg == 5 &&
+             <a href={"/" + calcResult().toLowerCase()} className="arrow-link quizNext">Calculate Result</a>
+            }
           </div>
 
         </div>

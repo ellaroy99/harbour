@@ -1,12 +1,30 @@
 import React from "react"
+import Link from "next/link"
+import Image from "next/image"
 //import Seo from "../components/seo"
 import { useRef, useEffect, useState } from 'react'
 
 import { Nav, Footer, Layout, Spacer } from "../components/meta"
-
-import Timg from "../assets/img/tristan-abt.png";
+import AboutCard from "../components/about-card"
 
 const About = ({ homepage }) => {
+
+    let tristan = { name: "Tristan Surman",
+                    image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1645637892/about/Tristan_2_gvybas.png",
+                    li: "https://www.linkedin.com/in/tristan-surman/",
+                    desc: <>"A little quote about what the harbour means to boss man Tristan"</>,  };
+    let ella    = { name: "Ella Roy",
+                    image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1645637892/about/Ella_2_rt93uu.png",
+                    li: "https://www.linkedin.com/in/ella-roy-433948156/",
+                    desc: <>"A little quote about what the harbour means to boss man Tristan"</>,  };
+    let tony    = { name: "Tony Wang",
+                    image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1645637892/about/Tony_2_bxu33u.png",
+                    li: "https://www.linkedin.com/in/tonywang99/",
+                    desc: <>"A little quote about what the harbour means to boss man Tristan"</>,  };
+    let liam    = { name: "Liam Chung",
+                    image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1645678500/about/Liam_2_iijz0q.png",
+                    li: "https://www.linkedin.com/in/liam-chung-9121a4151/",
+                    desc: <>"A little quote about what the harbour means to boss man Tristan"</>,  };
 
   return (
     <>
@@ -39,61 +57,10 @@ const About = ({ homepage }) => {
         </div>
 
         <div className="abt-rows">
-          <div className="abt-row">
-            <div className="profile-img">
-              <a className="">
-                <img src={Timg} />
-              </a>
-            </div>
-            <div className="profile-content">
-              <h1>Tristan Surman</h1>
-              <h5>"A little quote about what the harbour means to <br /> boss man Tristan"</h5>
-              <a className="">
-              </a>
-            </div>
-          </div>
-
-          <div className="abt-row">
-            <div className="profile-img">
-              <a className="">
-                <img src={Timg} />
-              </a>
-            </div>
-            <div className="profile-content">
-              <h1>Ella Roy</h1>
-              <h5>"A little quote about what the harbour means to <br /> boss man Tristan"</h5>
-              <a className="">
-              </a>
-            </div>
-          </div>
-
-          <div className="abt-row">
-            <div className="profile-img">
-              <a className="">
-                <img src={Timg} />
-              </a>
-            </div>
-            <div className="profile-content">
-              <h1>Tony Wang</h1>
-              <h5>"A little quote about what the harbour means to <br /> boss man Tristan"</h5>
-              <a className="">
-              </a>
-            </div>
-          </div>
-
-          <div className="abt-row">
-            <div className="profile-img">
-              <a className="">
-                <img src={Timg} />
-              </a>
-            </div>
-            <div className="profile-content">
-              <h1>Liam Chung</h1>
-              <h5>"A little quote about what the harbour means to <br /> boss man Tristan"</h5>
-              <a className="">
-              </a>
-            </div>
-          </div>
+          <AboutCard person={tristan} />
+          <AboutCard person={ella} />
+          <AboutCard person={tony} />
+          <AboutCard person={liam} />
         </div>
 
         <Spacer h="50px" />
