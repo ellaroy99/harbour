@@ -34,15 +34,15 @@ const About = ({ homepage }) => {
         <div className="about-head">
           <Spacer h="10px" />
           <h1>About</h1>
-          <p>A lot of us don’t know how to fight climate change. We know that we want to—but the “how” keeps<br/>
-            eluding us. 74% of young people don’t know how they can contribute to climate action. But, after a<br/>
-            couple years of being in this movement, we’ve learned something: everybody’s strengths, perspective,<br/>
-            and experiences are valuable (no, vital) in the fight to make our planet habitable and just.<br/>
+          <p>A lot of us don’t know how to fight climate change. We know that we want to—but the “how” keeps <br/>
+            eluding us. 74% of young people don’t know how they can contribute to climate action. But, after a <br/>
+            couple years of being in this movement, we’ve learned something: everybody’s strengths, perspective, <br/>
+            and experiences are valuable (no, vital) in the fight to make our planet habitable and just. <br/>
             <br/><br/>
-            So we built this quiz. It’s like any other personality quiz you’ve ever taken—but with some added<br/>
-            twists. Once you take it, you’ll get assigned a climate warrior archetype: one of eight profiles that<br/>
-            reflect different mindsets in the movement. With that archetype you won’t just get a cute description<br/>
-            and some similar celebrities. You’ll also get resources, guidance, and the opportunity to connect<br/>
+            So we built this quiz. It’s like any other personality quiz you’ve ever taken—but with some added <br/>
+            twists. Once you take it, you’ll get assigned a climate warrior archetype: one of eight profiles that <br/>
+            reflect different mindsets in the movement. With that archetype you won’t just get a cute description <br/>
+            and some similar celebrities. You’ll also get resources, guidance, and the opportunity to connect <br/>
             based on the mindset that you’re bringing to the table in the fight to save our planet. <br/> <br/>
           </p>
           <a className="arrow-link"><em>Take the quiz</em></a>

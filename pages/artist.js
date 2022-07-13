@@ -11,10 +11,10 @@ const About = ({ homepage }) => {
     let [anchorSelect, anchorSelectUpdate] = useState(["select", "", "", ""])
 
     let listenToScroll = () => {
-        const anchor1 = document.getElementById('anchor1').getBoundingClientRect().top + window.scrollY; // find the top position of title block
-        const anchor2 = document.getElementById('anchor2').getBoundingClientRect().top + window.scrollY; // find the top position of title block
-        const anchor3 = document.getElementById('anchor3').getBoundingClientRect().top + window.scrollY; // find the top position of title block
-        const anchor4 = document.getElementById('anchor4').getBoundingClientRect().top + window.scrollY; // find the top position of title block
+        const anchor1 = document.getElementById('anchor1').getBoundingClientRect().top + window.scrollY - 50; // find the top position of title block
+        const anchor2 = document.getElementById('anchor2').getBoundingClientRect().top + window.scrollY - 50; // find the top position of title block
+        const anchor3 = document.getElementById('anchor3').getBoundingClientRect().top + window.scrollY - 50; // find the top position of title block
+        const anchor4 = document.getElementById('anchor4').getBoundingClientRect().top + window.scrollY - 50; // find the top position of title block
 
         const winScroll = document.body.scrollTop || document.documentElement.scrollTop
 
@@ -65,33 +65,21 @@ const About = ({ homepage }) => {
                 <h2 style={{ color: "var(--dorange)", fontStyle: "italic" }}>The Artist loves exploring new <br />
                     ideas and following their passions <br />
                     to unexpected places.</h2>
-                <p>You’re probably no stranger to letting your curiosity guide you down many rabbit <br/>
-                    holes—whether it’s a niche new hobby or an internet quiz about what climate <br/>
+                <p>You’re probably no stranger to letting your curiosity guide you down many rabbit
+                    holes—whether it’s a niche new hobby or an internet quiz about what climate
                     archetype you are.</p>
                 <Spacer h="50px"/>
                 <img id="anchor2" src={Timg} />
-                <h2 style={{ color: "var(--dorange)", fontStyle: "italic" }}>The Artist loves exploring new <br />
-                    ideas and following their passions <br />
-                    to unexpected places.</h2>
-                <p>You’re probably no stranger to letting your curiosity guide you down many rabbit <br/>
-                    holes—whether it’s a niche new hobby or an internet quiz about what climate <br/>
-                    archetype you are.</p>
+                <h2 style={{ color: "var(--dorange)", fontStyle: "italic" }}>The Artist’s strength lies in communicating emotions and abstract concepts.</h2>
+                <p>You know when a piece of art just gets you? Like when a movie or a song perfectly captures your feelings on something? Of course you have. And luckily, that’s what you do best. Your ability to approach issues empathetically allows you to really get to the bottom of what people are feeling—and express those feelings with clarity and grace.</p>
                 <Spacer h="50px"/>
                 <img id="anchor3" src={Timg} />
-                <h2 style={{ color: "var(--dorange)", fontStyle: "italic" }}>The Artist loves exploring new <br />
-                    ideas and following their passions <br />
-                    to unexpected places.</h2>
-                <p>You’re probably no stranger to letting your curiosity guide you down many rabbit <br/>
-                    holes—whether it’s a niche new hobby or an internet quiz about what climate <br/>
-                    archetype you are.</p>
+                <h2 style={{ color: "var(--dorange)", fontStyle: "italic" }}>The Artist often finds themselves fretting over details that others see as small or insignificant.</h2>
+                <p>Be honest: You’ve been called a perfectionist. Probably many times. But that might not exactly be accurate. You understand that the tiniest details could make or break a project. More importantly, you understand which tiny details actually matter. What you’re after isn’t perfection—it’s heart.</p>
                 <Spacer h="50px"/>
                 <img id="anchor4" src={Timg} />
-                <h2 style={{ color: "var(--dorange)", fontStyle: "italic" }}>The Artist loves exploring new <br />
-                    ideas and following their passions <br />
-                    to unexpected places.</h2>
-                <p>You’re probably no stranger to letting your curiosity guide you down many rabbit <br/>
-                    holes—whether it’s a niche new hobby or an internet quiz about what climate <br/>
-                    archetype you are.</p>
+                <h2 style={{ color: "var(--dorange)", fontStyle: "italic" }}>The Artist believes in creativity as a powerful tool for changemaking.</h2>
+                <p>You have a unique ability to make people feel heard and seen. And that’s the first step in making someone feel empowered. Whether or not you’re an artist in the conventional sense, you can best support the fight against climate change by mobilizing, educating, and inspiring those around you. Check out the resources below to find out how The Artist champions climate action.</p>
                 <Spacer h="100px"/>
                 <Divider b="0"/>
             </div>
