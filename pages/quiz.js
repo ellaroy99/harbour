@@ -99,10 +99,14 @@ const Quiz = ({ homepage }) => {
         {/*<Seo seo={homepage.attributes.seo} />*/}
         <Nav seo={{title:"Home", desc:""}} />
         <div className="home-head">
-          <Spacer h="20px" />
+          <Spacer h="10px" />
           <h1>Climate Warriors</h1>
           <Spacer h="10px" />
-          <Spacer h="10px" />
+          <div style={{ position:"relative" }}>
+            <div className="progBarOuter"></div>
+            <div className="progBarInner" style={{ width: (quizPg*17)+"%" }}></div>
+          </div>
+          <Spacer h="30px" />
         </div>
 
         <div className="quiz-con" style={{ transition: ".5s", opacity: quizOpac }}>

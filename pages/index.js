@@ -15,7 +15,7 @@ const Home = ({ homepage }) => {
         {/*<Seo seo={homepage.attributes.seo} />*/}
         <Nav seo={{title:"Home", desc:""}} />
         <div className="home-head">
-          <Spacer h="20px" />
+          <Spacer h="10px" />
           <h1>Find your place in the climate movement.</h1>
           <p>We all have a role to play when it comes to fighting climate change—and they’re not always what <br/> you’d expect. Take our short personality quiz to discover your unique Climate Archetype.</p>
           <Spacer h="20px" />

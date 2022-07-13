@@ -14,15 +14,16 @@ const About = ({ homepage }) => {
         {/*<Seo seo={homepage.attributes.seo} />*/}
         <Nav seo={{title:"The Artist", desc:""}} />
         <div className="arch-head">
-            <Spacer h="20px" />
+            <Spacer h="10px" />
             <h5>Your climate archetype is:</h5>
             <h1>The Artist</h1>
             <h2 style={{ color: "var(--dorange)", fontStyle: "italic" }}>"The role of the artist is to make <br />
                 the revolution irresistible."</h2>
             <p className="quoteP">-Toni Cade Bamabara</p>
 
-          <Spacer h="140px" />
-          <img src={Timg} />
+          <div className="img-con">
+            <img src="https://res.cloudinary.com/mymediacreative/image/upload/v1657362375/the%20harbour/archetype%20illustrations/Artist_gblz0z.png" />
+          </div>
           <Divider b="0px" />
         </div>
 
