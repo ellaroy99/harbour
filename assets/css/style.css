@@ -452,3 +452,91 @@ a:visited { color: inherit; text-decoration: none }
 }
 
 .arch-row .profile-img img { margin: 0; display: block }
+
+/*----------- INTERVIEW STYLING ------------- */
+/*----------- INTERVIEW STYLING ------------- */
+/*----------- INTERVIEW STYLING ------------- */
+
+.itv-head { text-align: center; position: relative }
+
+.itv-row-con { display: flex; justify-content: center }
+.itv-row { display: flex; align-items: center; max-width: 600px }
+.itv-row .itv-img { flex-basis: 66%; display: block }
+.itv-row .itv-info { flex-basis: 34%; text-align: left; padding-left: 50px }
+
+.itv-info { color: var(--dorange) }
+.itv-info em { color: black; white-space: nowrap }
+
+.itv-questions { position: relative }
+
+.itv-questions > div:nth-of-type(1),
+.itv-questions > div:nth-of-type(5),
+.itv-questions > div:nth-of-type(7) { width: 70% }
+
+.itv-questions > div:nth-of-type(3),
+.itv-questions > div:nth-of-type(9) { width: 40% }
+
+.itv-questions > div:nth-of-type(1) { margin-left: 0vw }
+.itv-questions > div:nth-of-type(3) { margin-left: 25vw }
+.itv-questions > div:nth-of-type(5) { margin-left: 13vw }
+.itv-questions > div:nth-of-type(7) { margin-left: 0vw }
+.itv-questions > div:nth-of-type(9) { margin-left: 25vw }
+
+.itv-questions > div {
+  display: grid;
+  grid: auto auto / auto auto;
+}
+.itv-questions h2:first-of-type { margin-right: 20px }
+.itv-questions h2:nth-of-type(2) { white-space: nowrap }
+.itv-questions .avgDay,
+.itv-questions .starterPack,
+.itv-questions p { grid-area: 2 / 2 / 3 / 3 }
+
+
+@media only screen and (max-width: 767px) {
+  .itv-questions > div { width: 100% !important }
+
+  .itv-questions > div:nth-of-type(1),
+  .itv-questions > div:nth-of-type(3),
+  .itv-questions > div:nth-of-type(5),
+  .itv-questions > div:nth-of-type(7),
+  .itv-questions > div:nth-of-type(9) { margin-left: 0 }
+}
+
+.avgDay > div {
+  display: grid;
+  grid: auto auto / auto auto;
+  margin-bottom: 15px
+}
+.avgDay h6 {
+  color: white;
+  background-color: var(--dorange);
+  border-radius: 20px;
+  padding: 5px 9px;
+  font-style: italic;
+  width: max-content;
+  grid-area: 1 / 1 / 2 / 2;
+  margin: 0px;
+}
+.avgDay h3 {
+  grid-area: 1 / 2 / 2 / 3;
+  margin: 0px;
+  font-weight: 600;
+}
+.avgDay p { grid-area: 2 / 2 / 3 / 3; font-style: italic }
+
+
+.starterPack > div {
+  display: grid;
+  grid: auto auto / auto auto;
+  margin-bottom: 15px
+}
+.starterPack a {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.starterPack h3 {
+  grid-area: 1 / 1 / 2 / 2;
+  margin: 0px;
+  font-weight: 600;
+}
+.starterPack p { grid-area: 2 / 1 / 3 / 2; font-style: italic }
