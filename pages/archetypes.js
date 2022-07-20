@@ -32,12 +32,15 @@ const Archetypes = ({ homepage }) => {
         {/*<Seo seo={homepage.attributes.seo} />*/}
         <Nav seo={{title:"Archetypes", desc:""}} />
         <div className="archs-head">
-          <Spacer h="10px" />
+          <Spacer h="40px" />
           <h1>Archetypes</h1>
+          <Spacer h="5px" />
             <p>View 8 of the mindsets we've identified in the climate movement --- and see which one best <br/>
                 reflects you by <b><Link href="/quiz">taking our quiz</Link></b>.
             </p>
         </div>
+
+        <Spacer h="25px" />
 
         <div className="abt-rows">
           <ArchCard arch={artist} />

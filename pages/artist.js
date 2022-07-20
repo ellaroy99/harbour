@@ -36,12 +36,15 @@ const About = ({ homepage }) => {
         {/*<Seo seo={homepage.attributes.seo} />*/}
         <Nav seo={{title:"The Artist", desc:""}} />
         <div className="arch-head">
-            <Spacer h="10px" />
-            <h5>Your climate archetype is:</h5>
-            <h1>The Artist</h1>
-            <h2 style={{ color: "var(--dorange)", fontStyle: "italic" }}>"The role of the artist is to make <br />
+            <Spacer h="30px" />
+            <h5 style={{ marginBottom: 0 }}>Your climate archetype is:</h5>
+            <h1 style={{ marginTop: 15 }}>The Artist</h1>
+            <Spacer h="5px" />
+            <h2 style={{ color: "var(--dorange)", fontStyle: "italic", marginBottom: 0 }}>"The role of the artist is to make <br />
                 the revolution irresistible."</h2>
             <p className="quoteP">-Toni Cade Bamabara</p>
+
+            <Spacer h="5px" />
 
           <div className="img-con">
             <img src="https://res.cloudinary.com/mymediacreative/image/upload/v1657362375/the%20harbour/archetype%20illustrations/Artist_gblz0z.png" />
@@ -61,7 +64,7 @@ const About = ({ homepage }) => {
                 </ul>
             </div>
             <div className="anchor-content">
-                <img id="anchor1" src={Timg} />
+                <img id="anchor1" src="https://res.cloudinary.com/mymediacreative/image/upload/v1657729391/the%20harbour/archetype%20pages/Icon1_pi2feh.png" />
                 <h2 style={{ color: "var(--dorange)", fontStyle: "italic" }}>The Artist loves exploring new <br />
                     ideas and following their passions <br />
                     to unexpected places.</h2>
@@ -69,15 +72,15 @@ const About = ({ homepage }) => {
                     holes—whether it’s a niche new hobby or an internet quiz about what climate
                     archetype you are.</p>
                 <Spacer h="50px"/>
-                <img id="anchor2" src={Timg} />
+                <img id="anchor2" src="https://res.cloudinary.com/mymediacreative/image/upload/v1657729392/the%20harbour/archetype%20pages/Icon2_vxor0i.png" />
                 <h2 style={{ color: "var(--dorange)", fontStyle: "italic" }}>The Artist’s strength lies in communicating emotions and abstract concepts.</h2>
                 <p>You know when a piece of art just gets you? Like when a movie or a song perfectly captures your feelings on something? Of course you have. And luckily, that’s what you do best. Your ability to approach issues empathetically allows you to really get to the bottom of what people are feeling—and express those feelings with clarity and grace.</p>
                 <Spacer h="50px"/>
-                <img id="anchor3" src={Timg} />
+                <img id="anchor3" src="https://res.cloudinary.com/mymediacreative/image/upload/v1657729391/the%20harbour/archetype%20pages/Icon3_fml8xe.png" />
                 <h2 style={{ color: "var(--dorange)", fontStyle: "italic" }}>The Artist often finds themselves fretting over details that others see as small or insignificant.</h2>
                 <p>Be honest: You’ve been called a perfectionist. Probably many times. But that might not exactly be accurate. You understand that the tiniest details could make or break a project. More importantly, you understand which tiny details actually matter. What you’re after isn’t perfection—it’s heart.</p>
                 <Spacer h="50px"/>
-                <img id="anchor4" src={Timg} />
+                <img id="anchor4" src="https://res.cloudinary.com/mymediacreative/image/upload/v1657729391/the%20harbour/archetype%20pages/Icon4_wwrkci.png" />
                 <h2 style={{ color: "var(--dorange)", fontStyle: "italic" }}>The Artist believes in creativity as a powerful tool for changemaking.</h2>
                 <p>You have a unique ability to make people feel heard and seen. And that’s the first step in making someone feel empowered. Whether or not you’re an artist in the conventional sense, you can best support the fight against climate change by mobilizing, educating, and inspiring those around you. Check out the resources below to find out how The Artist champions climate action.</p>
                 <Spacer h="100px"/>
@@ -89,6 +92,7 @@ const About = ({ homepage }) => {
         <Spacer h="50px"/>
 
       <div style={{ textAlign: "center" }}>
+            <Spacer h="30px" />
         <h1>The Artist in Action</h1>
         <p>We met with dozens of young leaders across the country to explore the different ways you can <br/>
             take action against climate change. Here are some of their stories.</p>
@@ -125,7 +129,7 @@ const About = ({ homepage }) => {
           <Spacer h="200px" />
 
         <div className="starter-pack">
-            <img src={Timg} />
+            <img src="https://res.cloudinary.com/mymediacreative/image/upload/v1657729407/the%20harbour/archetype%20pages/StarterPack_gpchsy.png" />
             <h1> Starter Pack </h1>
             <p>You gotta start somewhere. Explore our curated list of resources, <br/>
                 tailored specifically for your climate archetype.</p>

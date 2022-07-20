@@ -8,8 +8,8 @@ const AboutCard = ({ person }) => {
         <div className="profile-img">
             <Image src={person.image}
                    alt={person.name}
-                   width={500}
-                   height={500}
+                   width={646}
+                   height={510}
             />
         </div>
         <div className="profile-content">

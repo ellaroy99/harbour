@@ -13,7 +13,8 @@ const Question = ({ name, content }) => {
 
   return (
     <div className="question">
-        <h3>{name}. {content}</h3>
+        <h4>{name}. {content}</h4>
+        <Spacer h={1} />
         <div className="radio">
             <input type="radio" value={-3} name={name} id={name + "-3"} />
             <input type="radio" value={-2} name={name} id={name + "-2"} />

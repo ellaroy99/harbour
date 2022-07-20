@@ -10,19 +10,19 @@ import AboutCard from "../components/about-card"
 const About = ({ homepage }) => {
 
     let tristan = { name: "Tristan Surman",
-                    image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1645637892/about/Tristan_2_gvybas.png",
+                    image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_800/v1657729362/the%20harbour/about%20page/Tristan_jn2efy.png",
                     li: "https://www.linkedin.com/in/tristan-surman/",
-                    desc: <>"A little quote about what the harbour means to boss man Tristan"</>,  };
+                    desc: <>"I wish I could tell my younger self that one day I’d be making BuzzFeed quizzes for social change. It’d totally freak him out."</>,  };
     let ella    = { name: "Ella Roy",
-                    image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1645637892/about/Ella_2_rt93uu.png",
+                    image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_800/v1657729362/the%20harbour/about%20page/Ella_xflzcb.png",
                     li: "https://www.linkedin.com/in/ella-roy-433948156/",
                     desc: <>"A little quote about what the harbour means to boss man Tristan"</>,  };
     let tony    = { name: "Tony Wang",
-                    image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1645637892/about/Tony_2_bxu33u.png",
+                    image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_800/v1657729361/the%20harbour/about%20page/Tony_eay37u.png",
                     li: "https://www.linkedin.com/in/tonywang99/",
                     desc: <>"A little quote about what the harbour means to boss man Tristan"</>,  };
     let liam    = { name: "Liam Chung",
-                    image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1645678500/about/Liam_2_iijz0q.png",
+                    image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_800/v1657729362/the%20harbour/about%20page/Liam_w9pgs7.png",
                     li: "https://www.linkedin.com/in/liam-chung-9121a4151/",
                     desc: <>"A little quote about what the harbour means to boss man Tristan"</>,  };
 
@@ -32,8 +32,9 @@ const About = ({ homepage }) => {
         {/*<Seo seo={homepage.attributes.seo} />*/}
         <Nav seo={{title:"Home", desc:""}} />
         <div className="about-head">
+          <Spacer h="40px" />
+          <h1>So, why a quiz?</h1>
           <Spacer h="10px" />
-          <h1>About</h1>
           <p>A lot of us don’t know how to fight climate change. We know that we want to—but the “how” keeps <br/>
             eluding us. 74% of young people don’t know how they can contribute to climate action. But, after a <br/>
             couple years of being in this movement, we’ve learned something: everybody’s strengths, perspective, <br/>
@@ -59,10 +60,10 @@ const About = ({ homepage }) => {
               </div>
           </div>
 
-          <p>A lot of us don’t know how to fight climate change. We know that we want to—but the “how” keeps<br/>
-            eluding us. 74% of young people don’t know how they can contribute to climate action. But, after a<br/>
-            couple years of being in this movement, we’ve learned something: everybody’s strengths, perspective,<br/>
-            and experiences are valuable (no, vital) in the fight to make our planet habitable and just.<br/>
+          <p>My Media is a creative agency for social change and climate action. We’ve worked with more <br/>
+             than 100 purpose-driven nonprofits, social enterprises, and charities to amplify their work. <br/>
+             Our work in advertising, branding, and design for such brilliant organisations has inspired us <br/>
+             with a sense of  purpose. We wanted to create something that would aim to do the same for others.<br/>
             </p>
           <div className="createdBy">
               <div>

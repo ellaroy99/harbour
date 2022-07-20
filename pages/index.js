@@ -15,10 +15,11 @@ const Home = ({ homepage }) => {
         {/*<Seo seo={homepage.attributes.seo} />*/}
         <Nav seo={{title:"Home", desc:""}} />
         <div className="home-head">
-          <Spacer h="10px" />
-          <h1>Find your place in the climate movement.</h1>
+          <Spacer h="40px" />
+          <h1 style={{ fontWeight: 630 }}>Find your place in the climate movement.</h1>
+          <Spacer h="5px" />
           <p>We all have a role to play when it comes to fighting climate change—and they’re not always what <br/> you’d expect. Take our short personality quiz to discover your unique Climate Archetype.</p>
-          <Spacer h="20px" />
+          <Spacer h="30px" />
           <Link href="/quiz">
             <a className="arrow-link">Take the Test</a>
           </Link>
@@ -26,10 +27,8 @@ const Home = ({ homepage }) => {
         </div>
 
         <div className="img-con">
-          <img src="https://res.cloudinary.com/mymediacreative/image/upload/v1657362417/the%20harbour/archetype%20illustrations/Architect_uk6err.png" alt="" />
+          <img src="https://res.cloudinary.com/mymediacreative/image/upload/v1657729344/the%20harbour/home%20page/home_collage_ntmu9l.png" alt="" />
         </div>
-
-        <Spacer h="50px" />
 
       <Footer />
       </div>
