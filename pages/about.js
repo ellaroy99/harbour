@@ -1,12 +1,30 @@
 import React from "react"
+import Link from "next/link"
+import Image from "next/image"
 //import Seo from "../components/seo"
 import { useRef, useEffect, useState } from 'react'
 
-import { Nav, Footer, Layout, Spacer } from "../components/meta"
-
-import Timg from "../assets/img/tristan-abt.png";
+import { Nav, Footer, Layout, Spacer, Divider } from "../components/meta"
+import AboutCard from "../components/about-card"
 
 const About = ({ homepage }) => {
+
+    let tristan = { name: "Tristan Surman",
+                    image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1645637892/about/Tristan_2_gvybas.png",
+                    li: "https://www.linkedin.com/in/tristan-surman/",
+                    desc: <>"A little quote about what the harbour means to boss man Tristan"</>,  };
+    let ella    = { name: "Ella Roy",
+                    image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1645637892/about/Ella_2_rt93uu.png",
+                    li: "https://www.linkedin.com/in/ella-roy-433948156/",
+                    desc: <>"A little quote about what the harbour means to boss man Tristan"</>,  };
+    let tony    = { name: "Tony Wang",
+                    image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1645637892/about/Tony_2_bxu33u.png",
+                    li: "https://www.linkedin.com/in/tonywang99/",
+                    desc: <>"A little quote about what the harbour means to boss man Tristan"</>,  };
+    let liam    = { name: "Liam Chung",
+                    image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_500/v1645678500/about/Liam_2_iijz0q.png",
+                    li: "https://www.linkedin.com/in/liam-chung-9121a4151/",
+                    desc: <>"A little quote about what the harbour means to boss man Tristan"</>,  };
 
   return (
     <>
@@ -14,86 +32,66 @@ const About = ({ homepage }) => {
         {/*<Seo seo={homepage.attributes.seo} />*/}
         <Nav seo={{title:"Home", desc:""}} />
         <div className="about-head">
-          <Spacer h="20px" />
+          <Spacer h="10px" />
           <h1>About</h1>
-            <p>Eco-anxiety is real. Three quarters of young people are terrified about the future of our planet. We <br/>
-                obviously care. But the climate crisis can feel overwhelming—so overwhelming, in fact, that we <br/>
-                often have no clue how to help or where to start. <br/> <br/>
+          <p>A lot of us don’t know how to fight climate change. We know that we want to—but the “how” keeps <br/>
+            eluding us. 74% of young people don’t know how they can contribute to climate action. But, after a <br/>
+            couple years of being in this movement, we’ve learned something: everybody’s strengths, perspective, <br/>
+            and experiences are valuable (no, vital) in the fight to make our planet habitable and just. <br/>
+            <br/><br/>
+            So we built this quiz. It’s like any other personality quiz you’ve ever taken—but with some added <br/>
+            twists. Once you take it, you’ll get assigned a climate warrior archetype: one of eight profiles that <br/>
+            reflect different mindsets in the movement. With that archetype you won’t just get a cute description <br/>
+            and some similar celebrities. You’ll also get resources, guidance, and the opportunity to connect <br/>
+            based on the mindset that you’re bringing to the table in the fight to save our planet. <br/> <br/>
+          </p>
+          <a className="arrow-link"><em>Take the quiz</em></a>
+          <Spacer h="40px" />
+          <div className="createdBy">
+              <div>
+                <p>Created by:<br/>
+                  <em>My Media Creative</em><br/>
+                  <a href="https://mymediacreative.org">mymediacreative.org</a>
+                </p>
+              </div>
+              <div>
+                <img src="https://res.cloudinary.com/mymediacreative/image/upload/v1646253292/MMC_Logo-01_zmy7c4.png" alt="My Media Creative Logo" />
+              </div>
+          </div>
 
-                Existential crises tend to have that effect on people. <br/> <br/>
-
-                So we decided to do something about it. First, we made a personality quiz to help you figure out <br/>
-                what your Climate Archetype is. Then, we compiled resources on how to get involved in the <br/>
-                climate movement—tailor-made for each personality type. Finally, we went out and spoke to <br/>
-                dozens of young climate leaders from across Canada—so you can see what climate action really <br/>
-                looks like from the ground. You can check out their stories in the form of profiles and <br/>
-                documentaries featured on each Climate Archetype’s page. <br/> <br/>
-
-                Take the quiz, explore our resources, get inspired. Everyone has a role to play in saving the planet <br/>
-                —now it’s time to find yours. <br/> <br/>
-
-                This project was produced by My Media Creative and made possible thanks to generous support <br/>
-                from The Harbour, an initiative of the Foundation for Environmental Stewardship.
+          <p>A lot of us don’t know how to fight climate change. We know that we want to—but the “how” keeps<br/>
+            eluding us. 74% of young people don’t know how they can contribute to climate action. But, after a<br/>
+            couple years of being in this movement, we’ve learned something: everybody’s strengths, perspective,<br/>
+            and experiences are valuable (no, vital) in the fight to make our planet habitable and just.<br/>
             </p>
-          <Spacer h="140px" />
+          <div className="createdBy">
+              <div>
+                <p>Funded by:<br/>
+                  <em>The Foundation for<br/>
+                    Environmental Stewardship</em>
+                </p>
+              </div>
+              <div>
+                <img src="https://res.cloudinary.com/mymediacreative/image/upload/v1646253292/MMC_Logo-01_zmy7c4.png" alt="My Media Creative Logo" />
+              </div>
+          </div>
+
+          <div style={{position: "relative"}}>
+            <Spacer h="30px" />
+            <Divider />
+          </div>
+
+          <h1>Our Partners</h1>
+
+          <Spacer h="130px" />
+          <Divider b="0"/>
         </div>
 
         <div className="abt-rows">
-          <div className="abt-row">
-            <div className="profile-img">
-              <a className="">
-                <img src={Timg} />
-              </a>
-            </div>
-            <div className="profile-content">
-              <h1>Tristan Surman</h1>
-              <h5>"A little quote about what the harbour means to <br /> boss man Tristan"</h5>
-              <a className="">
-              </a>
-            </div>
-          </div>
-
-          <div className="abt-row">
-            <div className="profile-img">
-              <a className="">
-                <img src={Timg} />
-              </a>
-            </div>
-            <div className="profile-content">
-              <h1>Ella Roy</h1>
-              <h5>"A little quote about what the harbour means to <br /> boss man Tristan"</h5>
-              <a className="">
-              </a>
-            </div>
-          </div>
-
-          <div className="abt-row">
-            <div className="profile-img">
-              <a className="">
-                <img src={Timg} />
-              </a>
-            </div>
-            <div className="profile-content">
-              <h1>Tony Wang</h1>
-              <h5>"A little quote about what the harbour means to <br /> boss man Tristan"</h5>
-              <a className="">
-              </a>
-            </div>
-          </div>
-
-          <div className="abt-row">
-            <div className="profile-img">
-              <a className="">
-                <img src={Timg} />
-              </a>
-            </div>
-            <div className="profile-content">
-              <h1>Liam Chung</h1>
-              <h5>"A little quote about what the harbour means to <br /> boss man Tristan"</h5>
-              <a className="">
-              </a>
-            </div>
-          </div>
+          <AboutCard person={tristan} />
+          <AboutCard person={ella} />
+          <AboutCard person={tony} />
+          <AboutCard person={liam} />
         </div>
 
         <Spacer h="50px" />

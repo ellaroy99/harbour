@@ -46,8 +46,8 @@ p { font-size: calc(var(--p) * var(--font-size)) }
 a { font-size: calc(var(--a) * var(--font-size)) }
 
 
-@media only screen and (min-width: 600px) {
-  :root { --content-width: 550px }
+@media only screen and (min-width: 425px) {
+  :root { --content-width: 80vw }
   :root { --font-size: 15px }
 
   :root { --h1: 2.2 }
@@ -60,8 +60,8 @@ a { font-size: calc(var(--a) * var(--font-size)) }
   :root { --a: 0.8 }
 }
 
-@media only screen and (min-width: 425px) {
-  :root { --content-width: 380px }
+@media only screen and (min-width: 600px) {
+  :root { --content-width: 80vw }
   :root { --font-size: 15px }
 
   :root { --h1: 2.2 }
@@ -75,7 +75,7 @@ a { font-size: calc(var(--a) * var(--font-size)) }
 }
 
 @media only screen and (max-width: 424px) {
-  :root { --content-width: 290px }
+  :root { --content-width: 80vw }
   :root { --font-size: 15px }
 
   :root { --h1: 2.2 }
@@ -92,8 +92,8 @@ a { font-size: calc(var(--a) * var(--font-size)) }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   /* #main-content { width: 680px } */
-  :root { --content-width: 680px }
-  :root { --font-size: 15px }
+  :root { --content-width: 735px }
+  :root { --font-size: 14px }
 
   :root { --h1: 2.2 }
   :root { --h2: 2.5 }
@@ -109,7 +109,7 @@ a { font-size: calc(var(--a) * var(--font-size)) }
 @media only screen and (min-width: 1000px) {
   /* #main-content { width: 862px } */
   :root { --content-width: 862px }
-  :root { --font-size: 16px }
+  :root { --font-size: 15px }
 
   :root { --h1: 2.2 }
   :root { --h2: 2.5 }
@@ -141,5 +141,5 @@ a { font-size: calc(var(--a) * var(--font-size)) }
 @media only screen and (min-width: 1640px) {
   /* #main-content { width: 1320px } */
   :root { --content-width: 1320px }
-  :root { --font-size: 25px }
+  :root { --font-size: 21px }
 }
