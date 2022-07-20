@@ -50,6 +50,7 @@ const Question = ({ name, content }) => {
                 </label>
             </div>
         </div>
+        <Spacer h={10} />
         {divLine}
     </div>
   )

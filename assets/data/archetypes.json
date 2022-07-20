@@ -2,9 +2,9 @@
     "IFC": "Artist",
     "IFN": "Caregiver",
     "EFC": "Storyteller",
-    "EFN": "Activist",
-    "ITC": "Engineer",
+    "EFN": "Organizer",
+    "ITC": "Architect",
     "ITN": "Scientist",
     "ETC": "Entrepreneur",
-    "ETN": "Policymaker"
+    "ETN": "Reformer"
 }

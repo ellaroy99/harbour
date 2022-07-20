@@ -1,212 +1,317 @@
 [
     {
         "id":1,
-        "attribute":"Feeling",
-        "axis":3,
-        "content":"If you were a professor, you would rather teach a course involving subjectivity and opinions (literature, philosophy, art), rather than something like math, science, engineering, or economics.",
+        "attribute":"Extrovert",
+        "axis":2,
+        "content":"You generally prefer talking on the phone to texting.",
         "value":0
     },
     {
         "id":2,
-        "attribute":"Thinking",
-        "axis":4,
-        "content":"You value someone’s respect over their love.",
+        "attribute":"Creator",
+        "axis":5,
+        "content":"You find adapting to new situations difficult.",
         "value":0
     },
     {
         "id":3,
-        "attribute":"Feeling",
-        "axis":3,
-        "content":"You follow your heart, rather than your head.",
+        "attribute":"Thinking",
+        "axis":4,
+        "content":"If you were a professor, you would rather teach a course involving subjectivity and opinions (literature, philosophy, art), rather than something like math, science, engineering, or economics.",
         "value":0
     },
     {
         "id":4,
-        "attribute":"Thinking",
-        "axis":4,
-        "content":"You base your sense of morality on justice, rather than compassion.",
-        "value":0
-    },
-    {
-        "id":5,
-        "attribute":"Feeling",
-        "axis":3,
-        "content":"The climate movement needs more storytellers, rather than problem solvers. (Or, alternatively, the climate crisis is a people problem, rather than a technology problem.)",
-        "value":0
-    },
-    {
-        "id":6,
-        "attribute":"Thinking",
-        "axis":4,
-        "content":"You are more moved by facts and figures about a social issue than emotional stories about that issue.",
-        "value":0
-    },
-    {
-        "id":7,
-        "attribute":"Thinking",
-        "axis":4,
-        "content":"People describe you as logical and pragmatic.",
-        "value":0
-    },
-    {
-        "id":8,
-        "attribute":"Feeling",
-        "axis":3,
-        "content":"Your interest in the climate movement comes primarily from a place of empathy.",
-        "value":0
-    },
-    {
-        "id":9,
         "attribute":"Feeling",
         "axis":3,
         "content":"Seeing someone else cry can cause you to cry as well.",
         "value":0
     },
     {
-        "id":10,
-        "attribute":"Feeling",
-        "axis":3,
-        "content":"You often act based on a “feeling,” even if you can’t quite put it into words.",
+        "id":5,
+        "attribute":"Creator",
+        "axis":5,
+        "content":"In your social circles, you tend to be a trendsetter.",
         "value":0
     },
     {
-        "id":11,
-        "attribute":"Extrovert",
-        "axis":2,
-        "content":"If you wanted to learn more about the climate movement, you would rather go to a conference and meet folks as opposed to doing some research independently.",
+        "id":6,
+        "attribute":"Creator",
+        "axis":5,
+        "content":"You consider your imagination to be one of your biggest strengths.",
         "value":0
     },
     {
-        "id":12,
-        "attribute":"Introvert",
-        "axis":1,
-        "content":"In group settings, you find that you get introduced more than you introduce others.",
-        "value":0
-    },
-    {
-        "id":13,
+        "id":7,
         "attribute":"Introvert",
         "axis":1,
         "content":"You require alone time to recharge.",
         "value":0
     },
     {
-        "id":14,
+        "id":8,
         "attribute":"Extrovert",
         "axis":2,
-        "content":"You value knowing and meeting a lot of people.",
+        "content":"You value knowing and meeting a lot of people in the fields you're interested in.",
         "value":0
     },
     {
-        "id":15,
+        "id":9,
         "attribute":"Extrovert",
         "axis":2,
-        "content":"The thought of meeting new people excites you more than it intimidates you.",
+        "content":"You are comfortable with drawing a lot of attention to yourself if you are advocating for a cause you are passionate about.",
         "value":0
     },
     {
-        "id":16,
-        "attribute":"Introvert",
-        "axis":1,
-        "content":"You find parties more draining than energizing.",
+        "id":10,
+        "attribute":"Creator",
+        "axis":5,
+        "content":"You generally disagree with the status quo.",
         "value":0
     },
     {
-        "id":17,
-        "attribute":"Introvert",
-        "axis":1,
-        "content":"You have been described as quiet, shy, or reserved.",
-        "value":0
-    },
-    {
-        "id":18,
+        "id":11,
         "attribute":"Extrovert",
         "axis":2,
-        "content":"In your downtime, you feel the urge to socialize or spend time with friends.",
+        "content":"If you wanted to learn more about the climate movement, your go-to would be to attend a conference and meet some people.",
         "value":0
     },
     {
-        "id":19,
-        "attribute":"Introvert",
-        "axis":1,
-        "content":"Your ideal birthday party involves a few close friends and/or family, as opposed to a large group of friends.",
+        "id":12,
+        "attribute":"Thinking",
+        "axis":4,
+        "content":"When it comes to social issues, a startling fact or figure is more compelling to you than an individual's story.",
         "value":0
     },
     {
-        "id":20,
-        "attribute":"Introvert",
-        "axis":1,
-        "content":"You would rather write a paper or article about the climate crisis than give a TED Talk about the climate crisis.",
-        "value":0
-    },
-    {
-        "id":21,
-        "attribute":"Creator",
-        "axis":5,
-        "content":"Given the choice, you’d rather write an essay than take a multiple choice test.",
-        "value":0
-    },
-    {
-        "id":22,
-        "attribute":"Creator",
-        "axis":5,
-        "content":"When you consume a piece of art (a movie, a painting, a song), you think about how you would have done it differently/similarly.",
-        "value":0
-    },
-    {
-        "id":23,
-        "attribute":"Creator",
-        "axis":5,
-        "content":"You think that rules are meant to be broken.",
-        "value":0
-    },
-    {
-        "id":24,
-        "attribute":"Non-Creator",
-        "axis":6,
-        "content":"You think that the solution(s) to the climate crisis already exist and we’re just not doing them—there’s no real need to come up with new solutions.",
-        "value":0
-    },
-    {
-        "id":25,
+        "id":13,
         "attribute":"Creator",
         "axis":5,
         "content":"A blank page excites you more than it intimidates you.",
         "value":0
     },
     {
+        "id":14,
+        "attribute":"Doer",
+        "axis":6,
+        "content":"You gain a lot of satisfaction from completing tasks well.",
+        "value":0
+    },
+    {
+        "id":15,
+        "attribute":"Feeling",
+        "axis":3,
+        "content":"The climate crisis is more of a people problem than a technological one. ",
+        "value":0
+    },
+    {
+        "id":16,
+        "attribute":"Introvert",
+        "axis":1,
+        "content":"Your ideal birthday party involves a few close friends or family members, as opposed to a large group of friends.",
+        "value":0
+    },
+    {
+        "id":17,
+        "attribute":"Introvert",
+        "axis":1,
+        "content":"You would rather write a paper or article about the climate crisis than give a TED Talk about the climate crisis.",
+        "value":0
+    },
+    {
+        "id":18,
+        "attribute":"Feeling",
+        "axis":3,
+        "content":"When faced with a challenge, you'd rather receive moral support over technical advice.",
+        "value":0
+    },
+    {
+        "id":19,
+        "attribute":"Creator",
+        "axis":5,
+        "content":"You often have the urge to create things.",
+        "value":0
+    },
+    {
+        "id":20,
+        "attribute":"Feeling",
+        "axis":3,
+        "content":"You have a hard time letting things go.",
+        "value":0
+    },
+    {
+        "id":21,
+        "attribute":"Extrovert",
+        "axis":2,
+        "content":"In a classroom setting, you enjoy participating in discussions pertaining to topics you care about.",
+        "value":0
+    },
+    {
+        "id":22,
+        "attribute":"Thinking",
+        "axis":4,
+        "content":"You value the truth above most things.",
+        "value":0
+    },
+    {
+        "id":23,
+        "attribute":"Creator",
+        "axis":5,
+        "content":"Given the choice, you’d rather write an essay than take a multiple choice test.",
+        "value":0
+    },
+    {
+        "id":24,
+        "attribute":"Creator",
+        "axis":5,
+        "content":"When cooking, you treat recipes more as inspiration than as instructions.",
+        "value":0
+    },
+    {
+        "id":25,
+        "attribute":"Feeling",
+        "axis":3,
+        "content":"Your interest in the climate movement comes primarily from a place of empathy.",
+        "value":0
+    },
+    {
         "id":26,
         "attribute":"Creator",
         "axis":5,
-        "content":"You like to express yourself by making things.",
+        "content":"The idea of forging your own path within the climate movement is attractive.",
         "value":0
     },
     {
         "id":27,
-        "attribute":"Creator",
-        "axis":5,
-        "content":"Whether it’s writing, painting, building, etc.—you often have the urge to create things.",
+        "attribute":"Thinking",
+        "axis":4,
+        "content":"A list of pros and cons can help you guide your decision-making, even when it goes against your gut feeling.",
         "value":0
     },
     {
         "id":28,
-        "attribute":"Non-Creator",
+        "attribute":"Extrovert",
+        "axis":2,
+        "content":"In your downtime, you feel the urge to socialize or spend time with friends.",
+        "value":0
+    },
+    {
+        "id":29,
+        "attribute":"Thinking",
+        "axis":4,
+        "content":"You enjoy participating in friendly debates about complex issues.",
+        "value":0
+    },
+    {
+        "id":30,
+        "attribute":"Extrovert",
+        "axis":2,
+        "content":"Group activities interest you more than solo activities.",
+        "value":0
+    },
+    {
+        "id":31,
+        "attribute":"Feeling",
+        "axis":3,
+        "content":"You believe that emotions often get in the way of sound decion-making.",
+        "value":0
+    },
+    {
+        "id":32,
+        "attribute":"Introvert",
+        "axis":1,
+        "content":"You have been described as quiet, shy, or reserved.",
+        "value":0
+    },
+    {
+        "id":33,
+        "attribute":"Thinking",
+        "axis":4,
+        "content":"When you buy something new, you tend to throw away the instructions and try to figure it out yourself.",
+        "value":0
+    },
+    {
+        "id":34,
+        "attribute":"Introvert",
+        "axis":1,
+        "content":"You find yourself listening more than talking when you meet someone new.",
+        "value":0
+    },
+    {
+        "id":35,
+        "attribute":"Doer",
+        "axis":6,
+        "content":"The solution to the climate crisis already exists—we just need to start acting on it.",
+        "value":0
+    },
+    {
+        "id":36,
+        "attribute":"Doer",
         "axis":6,
         "content":"If money was of no concern, you would rather move into a beautifully furnished apartment instead of picking out the furniture for yourself.",
         "value":0
     },
     {
-        "id":29,
-        "attribute":"Non-Creator",
-        "axis":6,
-        "content":"You would rather carry out an established plan, as opposed to formulating the plan.",
+        "id":37,
+        "attribute":"Extrovert",
+        "axis":2,
+        "content":"The thought of meeting new people excites you more than it intimidates you.",
         "value":0
     },
     {
-        "id":30,
+        "id":38,
+        "attribute":"Feeling",
+        "axis":3,
+        "content":"You often act based on a “feeling,” even in situations where you can’t quite put it into words.",
+        "value":0
+    },
+    {
+        "id":39,
+        "attribute":"Introvert",
+        "axis":1,
+        "content":"You find group discussions more draining than energizing.",
+        "value":0
+    },
+    {
+        "id":40,
+        "attribute":"Doer",
+        "axis":6,
+        "content":"You would rather carry out an established plan, as opposed to formulating the plan yourself.",
+        "value":0
+    },
+    {
+        "id":41,
+        "attribute":"Thinking",
+        "axis":4,
+        "content":"People describe you as logical and pragmatic.",
+        "value":0
+    },
+    {
+        "id":42,
         "attribute":"Creator",
         "axis":5,
-        "content":"When you’re cooking, you treat recipes more as inspiration than as instructions.",
+        "content":"When you consume a piece of art (a movie, a painting, a song), you think about how you would have done it differently/similarly.",
+        "value":0
+    },
+    {
+        "id":43,
+        "attribute":"Thinking",
+        "axis":4,
+        "content":"You adhere strictly to a set of rules that you've laid out for yourself.",
+        "value":0
+    },
+    {
+        "id":44,
+        "attribute":"Introvert",
+        "axis":1,
+        "content":"You are prone to feeling overwhelmed in social situations.",
+        "value":0
+    },
+    {
+        "id":45,
+        "attribute":"Doer",
+        "axis":6,
+        "content":"You would find it much easier to get involved in the climate movement if someone gave you a specific need to fill.",
         "value":0
     }
 ]
