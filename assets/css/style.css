@@ -85,15 +85,18 @@ a:visited { color: inherit; text-decoration: none }
 .arrow-link:hover::after { transform: translateX(14px); }
 
 @media only screen and (max-width: 767px) {
-  .arrow-link, .arrow-link:hover {
-    padding: 10px 0;
+  .arrow-link, .arrow-link:hover, .arrow-link:visited {
+    padding: 10px 30px;
     border: 1.5px solid;
     border-radius: 5px;
     display: block;
-    width: 98%;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     color: var(--dorange) !important;
     background-color: #E26E4B17;
+    font-size: calc(var(--font-size))
   }
   .arrow-link::after { display: none }
 }
@@ -111,7 +114,7 @@ a:visited { color: inherit; text-decoration: none }
   margin-left: auto;
   margin-right: auto;
   width: 90vw;
-  bottom: 30px
+  bottom: 0px
 }
 
 /*----------- HEADER STYLING ------------- */
@@ -132,7 +135,7 @@ a:visited { color: inherit; text-decoration: none }
   background-position: right center;
   background-repeat: no-repeat;
 
-  padding: 35px 0 65px 0;
+  padding: 45px 0 45px 0;
   display: grid;
 }
 
@@ -173,15 +176,22 @@ a:visited { color: inherit; text-decoration: none }
   color: white;
 }
 
+@media only screen and (max-width: 767px) {
+  .topbar { padding: 25px 0 25px 0; align-items: center }
+  .topbar .logo { height: 60%; margin-top: auto; margin-bottom: auto }
+}
+
+
 /*----------- HAMBURGER NAV STYLING ------------- */
 /*----------- HAMBURGER NAV STYLING ------------- */
 /*----------- HAMBURGER NAV STYLING ------------- */
 
 .hamburger {
   grid-column: 3 / 4;
-  width: 80px;
+  height: 60%;
   transform: translateX(-15%);
   cursor: pointer;
+  text-align: right;
 }
 
 #nav-overlay {
@@ -192,6 +202,8 @@ a:visited { color: inherit; text-decoration: none }
   top: 0; left: 0;
   opacity: 0;
 }
+
+.nav-open { display: block !important }
 
 
 /*----------- FOOTER STYLING ------------- */
@@ -209,7 +221,7 @@ a:visited { color: inherit; text-decoration: none }
   align-items: center;
   justify-content: center;
   position: relative;
-  padding-top: 70px;
+  padding-top: 40px;
 }
 
 .footer .menu { display: flex; align-items: center }
@@ -225,7 +237,8 @@ a:visited { color: inherit; text-decoration: none }
   line-height: 1.1;
 }
 
-.footer svg { height: 40px }
+.footer h5 { margin-bottom: 5px }
+.footer .socials svg { height: 35px; margin: 0 10px }
 
 /*----------- HOME STYLING ------------- */
 /*----------- HOME STYLING ------------- */
@@ -235,11 +248,11 @@ a:visited { color: inherit; text-decoration: none }
   text-align: center;
 }
 
-.img-con { text-align: center }
+.img-con { text-align: center; display: flex; justify-content: center }
 .img-con img {
   min-width: 800px;
   margin-bottom: 0;
-  transform: translateY(2px);
+  transform: translateY(4px);
 }
 
 /*----------- ABOUT STYLING ------------- */
@@ -266,10 +279,13 @@ a:visited { color: inherit; text-decoration: none }
 
 }
 
-.abt-row { width: 100%; line-height: 1.2; display: inline-flex; align-items: center; column-gap: 5%; margin: 100px 0 }
+.abt-row { width: 100%; line-height: 1.2; display: inline-flex; align-items: end; column-gap: 5%; margin: 100px 0 }
 .abt-row .profile-img { flex-basis: 50%; display: block }
 .abt-row .profile-content { flex-basis: 50% }
 .abt-row .profile-content a { height: 50px; width: 50px; display: inline-block }
+
+.abt-row .profile-content h1 { margin-bottom: 20px }
+.abt-row .profile-content h5 { margin-top: 0px; margin-bottom: 25px }
 
 @media only screen and (max-width: 767px) {
   .abt-row { flex-direction: column }
@@ -336,7 +352,7 @@ a:visited { color: inherit; text-decoration: none }
   border: 2px solid var(--dorange)
 }
 
-.labels label h4 { position: absolute; bottom: -65px }
+.labels label h4 { position: absolute; bottom: calc(var(--font-size) * -1 * 4.3) }
 
 .labels label:nth-of-type(1) .checkmark,
 .labels label:nth-of-type(7) .checkmark { width: 60px; height: 60px }
@@ -409,6 +425,8 @@ a:visited { color: inherit; text-decoration: none }
 .anchor-list li a:visited { color: black }
 .anchor-list li a:hover { color: var(--dorange) }
 
+.anchor-content img { width: 30% }
+
 .arch-profile {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -420,6 +438,7 @@ a:visited { color: inherit; text-decoration: none }
 
 .starter-pack { position: relative }
 .starter-pack h3 { color: var(--dorange); font-style: italic }
+.starter-pack img { max-width: 300px }
 
 
 /*----------- ARCHETYPES STYLING ------------- */
@@ -431,6 +450,7 @@ a:visited { color: inherit; text-decoration: none }
 
 .arch-row { width: 100%; line-height: 1.2; display: inline-flex; align-items: center; column-gap: 5%; margin: 30px 0 }
 .arch-row .arch-img { flex-basis: 50%; display: block }
+.arch-row .arch-img > div { padding: 50px }
 .arch-row .arch-content { flex-basis: 50% }
 
 @media only screen and (max-width: 767px) {
