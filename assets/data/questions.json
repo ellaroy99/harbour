@@ -9,14 +9,14 @@
     {
         "id":2,
         "attribute":"Creator",
-        "axis":5,
+        "axis":6,
         "content":"You find adapting to new situations difficult.",
         "value":0
     },
     {
         "id":3,
-        "attribute":"Thinking",
-        "axis":4,
+        "attribute":"Feeling",
+        "axis":3,
         "content":"If you were a professor, you would rather teach a course involving subjectivity and opinions (literature, philosophy, art), rather than something like math, science, engineering, or economics.",
         "value":0
     },
@@ -211,9 +211,9 @@
     },
     {
         "id":31,
-        "attribute":"Feeling",
-        "axis":3,
-        "content":"You believe that emotions often get in the way of sound decion-making.",
+        "attribute":"Thinking",
+        "axis":4,
+        "content":"You believe that emotions often get in the way of sound decision-making.",
         "value":0
     },
     {
@@ -225,8 +225,8 @@
     },
     {
         "id":33,
-        "attribute":"Thinking",
-        "axis":4,
+        "attribute":"Feeling",
+        "axis":3,
         "content":"When you buy something new, you tend to throw away the instructions and try to figure it out yourself.",
         "value":0
     },
@@ -290,7 +290,7 @@
         "id":42,
         "attribute":"Creator",
         "axis":5,
-        "content":"When you consume a piece of art (a movie, a painting, a song), you think about how you would have done it differently/similarly.",
+        "content":"When you consume a piece of art (a movie, a painting, a song), you think about how you would have done it differently.",
         "value":0
     },
     {
