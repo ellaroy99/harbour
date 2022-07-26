@@ -113,14 +113,14 @@ const Quiz = ({ homepage }) => {
           <div onChange={onChangeValue} className="form">
             <>{ questionsArr[quizPg].map((q, index) => { return <Question key={index} content={profile[quizPg*5 + index].content} name={profile[quizPg*5 + index].id}/>; })}</>
             <Spacer h={50}/>
-            {quizPg < 5 &&
+            {quizPg < 6 &&
              <>
               <Spacer h="20px" />
               <a onClick={nextPage} className="arrow-link quizNext">Next</a>
               <Spacer h="50px" />
              </>
             }
-            {quizPg == 5 &&
+            {quizPg == 6 &&
              <a href={"/" + calcResult().toLowerCase()} className="arrow-link quizNext">Get Your Result!</a>
             }
           </div>
