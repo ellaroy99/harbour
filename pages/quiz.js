@@ -22,7 +22,7 @@ const Quiz = ({ homepage }) => {
   // breaks questions list into blocks of 5
   let questionsArr = [];
   const questionsTemp = [].concat(...questions);
-  for( var i = 0; i < 6; i++) {
+  for( var i = 0; i < 9; i++) {
     questionsArr.push(questionsTemp.splice(0, 5))
   }
 
@@ -113,14 +113,14 @@ const Quiz = ({ homepage }) => {
           <div onChange={onChangeValue} className="form">
             <>{ questionsArr[quizPg].map((q, index) => { return <Question key={index} content={profile[quizPg*5 + index].content} name={profile[quizPg*5 + index].id}/>; })}</>
             <Spacer h={50}/>
-            {quizPg < 6 &&
+            {quizPg < 8 &&
              <>
               <Spacer h="20px" />
               <a onClick={nextPage} className="arrow-link quizNext">Next</a>
               <Spacer h="50px" />
              </>
             }
-            {quizPg == 6 &&
+            {quizPg == 8 &&
              <a href={"/" + calcResult().toLowerCase()} className="arrow-link quizNext">Get Your Result!</a>
             }
           </div>
