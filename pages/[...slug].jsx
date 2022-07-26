@@ -7,7 +7,7 @@ import { useRef, useEffect, useState } from 'react'
 import { Nav, Footer, Layout, Spacer, Divider } from "../components/meta"
 import Filler from "../assets/img/tristan-abt.png";
 
-export default function Page({page}) {
+export default function Page( p ) {
 
     let [anchorSelect, anchorSelectUpdate] = useState(["select", "", "", ""])
 
@@ -31,7 +31,10 @@ export default function Page({page}) {
         return () => { window.removeEventListener('scroll', listenToScroll); };
     }, []);
 
-  return (
+    let page = p.page;
+
+    if(typeof(page) == 'undefined') return ( <> <p> ERROR </p> </> )
+    else return (
     <>
       <div id="main-content">
         {/*<Seo seo={homepage.attributes.seo} />*/}
@@ -125,7 +128,7 @@ export default function Page({page}) {
             <Divider b="-120px"/>
         </div>
 
-          <Spacer h="200px" />
+        <Spacer h="200px" />
 
         <div className="starter-pack">
             <img src="https://res.cloudinary.com/mymediacreative/image/upload/v1657729407/the%20harbour/archetype%20pages/StarterPack_gpchsy.png" />
@@ -138,7 +141,7 @@ export default function Page({page}) {
             <Divider b="-100px"/>
         </div>
 
-          <Spacer h="200px" />
+        <Spacer h="200px" />
 
         <div className="starter-pack">
             <h1> Careers </h1>
@@ -147,8 +150,7 @@ export default function Page({page}) {
         </div>
       </div>
 
-
-        <Spacer h="50px" />
+      <Spacer h="50px" />
 
       <Footer />
       </div>
@@ -157,7 +159,7 @@ export default function Page({page}) {
 }
 
 export async function getStaticPaths() {
-  const paths = content.map(page => {
+  const paths = content.pages.map(page => {
     const slug = page.path.split('/').slice(1);
     return {params: {slug}};
   });
@@ -166,6 +168,6 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({params}) {
   const currentPath = `/${params.slug.join('/')}`;
-  const page = content.find(page => page.path === currentPath) || {notfound: true};
+  const page = content.pages.find(page => page.path === currentPath) || {notfound: true};
   return {props: {page}};
 }
