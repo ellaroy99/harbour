@@ -16,15 +16,15 @@ const About = ({ homepage }) => {
     let ella    = { name: "Ella Roy",
                     image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_800/v1657729362/the%20harbour/about%20page/Ella_xflzcb.png",
                     li: "https://www.linkedin.com/in/ella-roy-433948156/",
-                    desc: <>"A little quote about what the harbour means to boss man Tristan"</>,  };
+                    desc: <>"A little quote about what the harbour means to Boss Man Ella"</>,  };
     let tony    = { name: "Tony Wang",
                     image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_800/v1657729361/the%20harbour/about%20page/Tony_eay37u.png",
                     li: "https://www.linkedin.com/in/tonywang99/",
-                    desc: <>"A little quote about what the harbour means to boss man Tristan"</>,  };
+                    desc: <>"A little quote about what the harbour means to Boss Man Tony"</>,  };
     let liam    = { name: "Liam Chung",
                     image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_800/v1657729362/the%20harbour/about%20page/Liam_w9pgs7.png",
                     li: "https://www.linkedin.com/in/liam-chung-9121a4151/",
-                    desc: <>"A little quote about what the harbour means to boss man Tristan"</>,  };
+                    desc: <>"A little quote about what the harbour means to Boss Man Liam"</>,  };
 
   return (
     <>
