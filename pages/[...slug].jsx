@@ -7,7 +7,7 @@ import { useRef, useEffect, useState } from 'react'
 import { Nav, Footer, Layout, Spacer, Divider } from "../components/meta"
 import Filler from "../assets/img/tristan-abt.png";
 
-export default function Page( page ) {
+export default function Page( p ) {
 
     let [anchorSelect, anchorSelectUpdate] = useState(["select", "", "", ""])
 
@@ -31,7 +31,10 @@ export default function Page( page ) {
         return () => { window.removeEventListener('scroll', listenToScroll); };
     }, []);
 
-    return (
+    let page = p.page;
+
+    if(typeof(page) == 'undefined') return ( <> <p> ERROR </p> </> )
+    else return (
     <>
       <div id="main-content">
         {/*<Seo seo={homepage.attributes.seo} />*/}
