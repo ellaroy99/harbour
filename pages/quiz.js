@@ -104,7 +104,7 @@ const Quiz = ({ homepage }) => {
           <Spacer h="15px" />
           <div style={{ position:"relative" }}>
             <div className="progBarOuter"></div>
-            <div className="progBarInner" style={{ width: (quizPg*17)+"%" }}></div>
+            <div className="progBarInner" style={{ width: (quizPg*11)+"%" }}></div>
           </div>
           <Spacer h="30px" />
         </div>
