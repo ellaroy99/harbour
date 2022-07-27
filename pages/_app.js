@@ -17,6 +17,7 @@ const Harbour = ({ Component, router, pageProps }) => {
       </Head>
       {/* header here*/}
       <Component {...pageProps} key={router.route} />
+      <h1 style={{color:"red", position: "fixed", bottom: "10px", right: "30px" }}> BETA </h1>
     </>
   )
 }
