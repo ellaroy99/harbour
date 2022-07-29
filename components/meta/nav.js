@@ -87,11 +87,13 @@ export const Nav = (props) => {
       </nav>
 
       <div id="nav-overlay" className={ navbarOpen ? "nav-open" : "nav-close" }>
-        <div onClick={handleToggle} className="hamburger-x">
-          <svg height="100%" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M29.25 9.75L9.75 29.25" stroke="#E26E4B" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-            <path d="M9.75 9.75L29.25 29.25" stroke="#E26E4B" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-          </svg>
+        <div className="topbar-hamb">
+          <div onClick={handleToggle} className="hamburger-x">
+            <svg height="100%" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M29.25 9.75L9.75 29.25" stroke="#E26E4B" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
+              <path d="M9.75 9.75L29.25 29.25" stroke="#E26E4B" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+          </div>
         </div>
         <div className="nav-overlay-menu">
           <ul>

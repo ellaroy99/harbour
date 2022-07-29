@@ -27,6 +27,7 @@ body, html {
   width: 100%;
   margin: 0px;
   padding: 0px;
+  overflow-x: hidden;
 }
 
 img {
@@ -94,7 +95,7 @@ a:visited { color: inherit; text-decoration: none }
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    color: var(--dorange) !important;
+    color: var(--dorange);
     background-color: #E26E4B17;
     font-size: calc(var(--font-size))
   }
@@ -196,14 +197,57 @@ a:visited { color: inherit; text-decoration: none }
 
 #nav-overlay {
   position: fixed;
-  display: none;
-  width: 100vw; height: 100vh;
-  background-color: var(--dblue);
+  width: 100vw;
+  background-color: var(--white);
   top: 0; left: 0;
-  opacity: 0;
+  z-index: 50;
+  overflow: hidden;
 }
 
-.nav-open { display: block !important }
+.nav-close {
+  height: 0;
+  opacity: 0;
+  transition: opacity .2s ease-out 0s, height 0s linear .2s;
+}
+
+.nav-open {
+  height: 100vh;
+  opacity: 1;
+  transition: opacity .2s ease-out,height 0s linear;
+}
+
+#nav-overlay .topbar-hamb {
+  position: relative;
+  z-index: 5;
+  grid-template-columns: 80px auto 80px;
+
+  position: relative;
+  left: 50%; right: 50%;
+  margin-left: -45vw;
+  margin-right: 45vw;
+  width: 90vw;
+  background-position: right center;
+  background-repeat: no-repeat;
+
+  padding: 45px 0 45px 0;
+  display: grid;
+}
+
+#nav-overlay .hamburger-x {
+  grid-column: 3 / 4;
+  height: 90%;
+  cursor: pointer;
+}
+
+.nav-overlay-menu {
+  text-align: right;
+  margin-right: 35px;
+}
+.nav-overlay-menu a { font-size: 25px }
+.nav-overlay-menu li { margin-bottom: 25px }
+
+
+
 
 
 /*----------- FOOTER STYLING ------------- */
@@ -238,7 +282,13 @@ a:visited { color: inherit; text-decoration: none }
 }
 
 .footer h5 { margin-bottom: 5px }
-.footer .socials svg { height: 35px; margin: 0 10px }
+.footer .socials svg {
+  height: 35px; margin: 0 10px;
+  transform: translateX(-6px);
+}
+@media only screen and (max-width: 767px) {
+  .footer .socials svg { height: 35px; margin: 0 }
+}
 
 /*----------- HOME STYLING ------------- */
 /*----------- HOME STYLING ------------- */
@@ -253,6 +303,14 @@ a:visited { color: inherit; text-decoration: none }
   min-width: 800px;
   margin-bottom: 0;
   transform: translateY(4px);
+}
+@media only screen and (max-width: 767px) {
+  .img-con img {
+    transform: none;
+    min-width: unset;
+    margin-bottom: 30px;
+    width: 80%;
+  }
 }
 
 /*----------- ABOUT STYLING ------------- */
@@ -279,7 +337,7 @@ a:visited { color: inherit; text-decoration: none }
 
 }
 
-.abt-row { width: 100%; line-height: 1.2; display: inline-flex; align-items: end; column-gap: 5%; margin: 100px 0 }
+.abt-row { width: 100%; line-height: 1.2; display: inline-flex; align-items: flex-end; column-gap: 5%; margin: 100px 0 }
 .abt-row .profile-img { flex-basis: 50%; display: block }
 .abt-row .profile-content { flex-basis: 50% }
 .abt-row .profile-content a { height: 50px; width: 50px; display: inline-block }
@@ -288,7 +346,7 @@ a:visited { color: inherit; text-decoration: none }
 .abt-row .profile-content h5 { margin-top: 0px; margin-bottom: 25px }
 
 @media only screen and (max-width: 767px) {
-  .abt-row { flex-direction: column }
+  .abt-row { flex-direction: column; margin: 30px 0 }
   .abt-row .profile-img { flex-basis:  }
   .abt-row .profile-content { flex-basis:  }
 }
@@ -312,6 +370,9 @@ a:visited { color: inherit; text-decoration: none }
 /*----------- QUIZ STYLING ------------- */
 /*----------- QUIZ STYLING ------------- */
 
+.greyed { background-color: grey !important }
+.greyed:hover::after { transform: translateX(7px) !important; }
+
 .progBarInner, .progBarOuter { position: absolute; top: 0; height: 10px; border-radius: 20px }
 .progBarOuter { background-color: var(--grey); width: 100% }
 .progBarInner { background-color: var(--dorange); transition: .3s }
@@ -332,10 +393,11 @@ a:visited { color: inherit; text-decoration: none }
 
 .labels {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .labels label {
-  margin-right: 20px;
+  margin-right: 7px;
+  margin-left: 7px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -365,6 +427,19 @@ a:visited { color: inherit; text-decoration: none }
 
 .labels label:nth-of-type(4) .checkmark { width: 20px; height: 20px }
 
+@media only screen and (max-width: 767px) {
+  .labels label:nth-of-type(1) .checkmark,
+  .labels label:nth-of-type(7) .checkmark { width: 40px; height: 40px }
+
+  .labels label:nth-of-type(2) .checkmark,
+  .labels label:nth-of-type(6) .checkmark { width: 30px; height: 30px }
+
+  .labels label:nth-of-type(3) .checkmark,
+  .labels label:nth-of-type(5) .checkmark { width: 20px; height: 20px }
+
+  .labels label:nth-of-type(4) .checkmark { width: 15px; height: 15px }
+}
+
 /* On mouse-over, add a grey background color */
 .labels label:hover .checkmark { background-color: #ddd; }
 
@@ -378,8 +453,7 @@ a:visited { color: inherit; text-decoration: none }
 .radio input:nth-of-type(7):checked ~ .labels label:nth-of-type(7) .checkmark { background-color: var(--dorange); }
 
 .quiz-con {
-  display: flex;
-  column-gap: 20px;
+  display: block;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -394,10 +468,16 @@ a:visited { color: inherit; text-decoration: none }
   padding-right: 70px;
   font-size: calc(var(--h3) * var(--font-size));
   background-color: var(--dblue);
-  margin-top: 100px;
+  color: white !important;
   border-radius: 50px
 }
 
+@media only screen and (min-width: 768px) {
+  .quizNext, .quizNext:hover,
+  .quizNext:visited {
+    margin-top: 100px
+  }
+}
 .quizNext::after { height: 35px }
 
 /*----------- ARCHETYPE STYLING ------------- */
@@ -413,6 +493,15 @@ a:visited { color: inherit; text-decoration: none }
   column-gap: 50px;
   position: relative;
 }
+@media only screen and (max-width: 767px) {
+  .your-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    column-gap: 50px;
+    position: relative;
+  }
+}
 
 .anchor-list-con { height: 100% }
 .anchor-list { position: sticky; top: 20px }
@@ -426,12 +515,18 @@ a:visited { color: inherit; text-decoration: none }
 .anchor-list li a:hover { color: var(--dorange) }
 
 .anchor-content img { width: 30% }
+@media only screen and (max-width: 767px) {
+  .anchor-content img { width: 70% }
+}
 
 .arch-profile {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 50px;
   position: relative;
+}
+@media only screen and (max-width: 767px) {
+  .arch-profile { grid-template-columns: 1fr; row-gap: 30px }
 }
 
 .arch-profile * { margin-bottom: 5px }
@@ -455,6 +550,9 @@ a:visited { color: inherit; text-decoration: none }
 
 @media only screen and (max-width: 767px) {
   .arch-row { flex-direction: column; margin-bottom: 50px }
+  .arch-row .arch-img > div { padding: 20px }
+  .arch-row .arch-content h1 { margin-top: 0 }
+  .arch-row .arch-content { text-align: center }
   .arch-row .profile-img { flex-basis:  }
   .arch-row .profile-content { flex-basis:  }
 }

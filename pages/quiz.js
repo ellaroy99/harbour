@@ -18,6 +18,8 @@ const Quiz = ({ homepage }) => {
   let [quizPg, quizPgUpdate] = useState(0);
   // tracks opactity of quiz for transition state
   let [quizOpac, quizOpacUpdate] = useState(1);
+  // tracks the state of the next button at the bottom
+  let [btnState, btnStateUpdate] = useState("greyed");
 
   // breaks questions list into blocks of 5
   let questionsArr = [];
@@ -26,10 +28,15 @@ const Quiz = ({ homepage }) => {
     questionsArr.push(questionsTemp.splice(0, 5))
   }
 
+  useEffect(() => {
+    if(answered.length === quizPg*5 + 5) {
+      btnStateUpdate("");
+    }
+  });
+
   // function to go to next page
   let nextPage = () => {
     // check if all the q's have been answered on this page
-    console.log(answered.length);
     if(answered.length === quizPg*5 + 5) {
       // scroll to top
       window.scrollTo(0, 0);
@@ -40,6 +47,8 @@ const Quiz = ({ homepage }) => {
         quizPgUpdate(prev => prev+1);
         // fade back in
         quizOpacUpdate(1);
+        // grey out next btn
+        btnStateUpdate("greyed");
         // unchecks all radio buttons
         Array.from(document.querySelectorAll("input")).forEach(
             input => (input.checked = false)
@@ -116,7 +125,7 @@ const Quiz = ({ homepage }) => {
             {quizPg < 8 &&
              <>
               <Spacer h="20px" />
-              <a onClick={nextPage} className="arrow-link quizNext">Next</a>
+               <a onClick={nextPage} className={"arrow-link quizNext " + btnState}>Next</a>
               <Spacer h="50px" />
              </>
             }

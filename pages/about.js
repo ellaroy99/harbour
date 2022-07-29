@@ -50,8 +50,8 @@ const About = ({ homepage }) => {
           <Spacer h="40px" />
           <div className="createdBy">
               <div>
-                <p>Created by:<br/>
-                  <em>My Media Creative</em><br/>
+                <p>Created by:<br className="stay"/>
+                  <em>My Media Creative</em><br className="stay"/>
                   <a href="https://mymediacreative.org">mymediacreative.org</a>
                 </p>
               </div>
@@ -67,8 +67,8 @@ const About = ({ homepage }) => {
             </p>
           <div className="createdBy">
               <div>
-                <p>Funded by:<br/>
-                  <em>The Foundation for<br/>
+                <p>Funded by:<br className="stay"/>
+                  <em>The Foundation for<br className="stay"/>
                     Environmental Stewardship</em>
                 </p>
               </div>
@@ -82,6 +82,7 @@ const About = ({ homepage }) => {
             <Divider />
           </div>
 
+            <Spacer h="30px" />
           <h1>Our Partners</h1>
 
           <Spacer h="130px" />

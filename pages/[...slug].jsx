@@ -50,12 +50,14 @@ export default function Page( p ) {
             <Spacer h="5px" />
 
           <div className="img-con">
-            <img src={page.headerimg} />
+            <img className="reg" src={page.headerimg} />
+            <img className="mobile" src={page.mobileheaderimg} />
           </div>
           <Divider b="0px" />
         </div>
 
-        <Spacer h="110px" />
+        <div className="reg"><Spacer h="110px" /></div>
+        <div className="mobile"><Spacer h="50px" /></div>
         <div className="your-list">
             <div className="anchor-list-con">
                 <ul className="anchor-list">
@@ -63,27 +65,28 @@ export default function Page( p ) {
                     <li className={anchorSelect[1]}><a href="#anchor2">Your Strength</a></li>
                     <li className={anchorSelect[2]}><a href="#anchor3">Your Quirk</a></li>
                     <li className={anchorSelect[3]}><a href="#anchor4">Your Role</a></li>
-                <Spacer h="100px"/>
+                <div className="reg"><Spacer h="100px"/></div>
+                <div className="mobile"><Spacer h="50px" /></div>
                 </ul>
             </div>
             <div className="anchor-content">
                 <img id="anchor1" src="https://res.cloudinary.com/mymediacreative/image/upload/v1657729391/the%20harbour/archetype%20pages/Icon1_pi2feh.png" />
-                <h2 style={{ color: "var(--dorange)", fontStyle: "italic" }} dangerouslySetInnerHTML={{__html: page.oneTitle }}></h2>
+                <h2 style={{ marginBottom: "40px", lineHeight: "1.45", color: "var(--dorange)", fontStyle: "italic" }} dangerouslySetInnerHTML={{__html: page.oneTitle }}></h2>
                 <p dangerouslySetInnerHTML={{__html: page.oneP }}></p>
                 <Spacer h="50px"/>
 
                 <img id="anchor2" src="https://res.cloudinary.com/mymediacreative/image/upload/v1657729392/the%20harbour/archetype%20pages/Icon2_vxor0i.png" />
-                <h2 style={{ color: "var(--dorange)", fontStyle: "italic" }}>{page.twoTitle}</h2>
+                <h2 style={{ marginBottom: "40px", lineHeight: "1.45", color: "var(--dorange)", fontStyle: "italic" }}>{page.twoTitle}</h2>
                 <p>{page.twoP}</p>
                 <Spacer h="50px"/>
 
                 <img id="anchor3" src="https://res.cloudinary.com/mymediacreative/image/upload/v1657729391/the%20harbour/archetype%20pages/Icon3_fml8xe.png" />
-                <h2 style={{ color: "var(--dorange)", fontStyle: "italic" }}>{page.threeTitle}</h2>
+                <h2 style={{ marginBottom: "40px", lineHeight: "1.45", color: "var(--dorange)", fontStyle: "italic" }}>{page.threeTitle}</h2>
                 <p>{page.threeP}</p>
                 <Spacer h="50px"/>
 
                 <img id="anchor4" src="https://res.cloudinary.com/mymediacreative/image/upload/v1657729391/the%20harbour/archetype%20pages/Icon4_wwrkci.png" />
-                <h2 style={{ color: "var(--dorange)", fontStyle: "italic" }}>{page.fourTitle}</h2>
+                <h2 style={{ marginBottom: "40px", lineHeight: "1.45", color: "var(--dorange)", fontStyle: "italic" }}>{page.fourTitle}</h2>
                 <p>{page.fourP}</p>
                 <Spacer h="100px"/>
                 <Divider b="0"/>
@@ -136,7 +139,7 @@ export default function Page( p ) {
             <p>You gotta start somewhere. Explore our curated list of resources, <br/>
                 tailored specifically for your climate archetype.</p>
             <Spacer h="30px" />
-            <a href={page.starterPack} style={{ backgroundColor: "var(--dblue)"}} className="arrow-link">View Starter Pack</a>
+            <a href={page.starterPack} style={{ backgroundColor: "var(--dblue)", color: "white" }} className="arrow-link">View Starter Pack</a>
             <Spacer h="30px" />
             <Divider b="-100px"/>
         </div>
@@ -145,6 +148,7 @@ export default function Page( p ) {
 
         <div className="starter-pack">
             <h1> Careers </h1>
+            <Spacer h="1px"/>
             <h3> {page.careers} </h3>
             <Spacer h="30px" />
         </div>

@@ -2,6 +2,7 @@
 @media only screen and (max-width: 767px) {
   .reg { display: none !important }
   br { display: none !important }
+  br.stay { display: block !important }
 }
 
 
@@ -79,7 +80,7 @@ a { font-size: calc(var(--a) * var(--font-size)) }
   :root { --font-size: 15px }
 
   :root { --h1: 2.2 }
-  :root { --h2: 2.5 }
+  :root { --h2: 2.3 }
   :root { --h3: 1.6 }
   :root { --h4: 1.4 }
   :root { --h5: 1.2 }
