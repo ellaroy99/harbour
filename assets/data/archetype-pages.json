@@ -31,11 +31,12 @@
                 },
                 {
                     "img": "",
-                    "name": "Dom Petti",
+                    "name": "Tony",
                     "career": "Math Man",
-                    "path": "dompetti"
+                    "path": "tony"
                 }
             ],
+            "inActionBlurb": "",
             "starterPack": "",
             "careers": "Digital Designer • Facilitator • Curator • Musician"
         },

@@ -144,13 +144,22 @@ export default function Page( p ) {
             <Divider b="-100px"/>
         </div>
 
-        <Spacer h="200px" />
+        <Spacer h="150px" />
 
         <div className="starter-pack">
-            <h1> Careers </h1>
-            <Spacer h="1px"/>
-            <h3> {page.careers} </h3>
             <Spacer h="30px" />
+            <h1> Careers </h1>
+            <h3> {page.careers} </h3>
+            <Spacer h="70px" />
+            <Divider b="0px"/>
+        </div>
+
+        <div className="starter-pack">
+            <Spacer h="60px" />
+            <h1> Outlink for feedback here </h1>
+            <Spacer h="20px" />
+            <a href={page.starterPack} className="arrow-link">CTA Here</a>
+            <Spacer h="20px" />
         </div>
       </div>
 

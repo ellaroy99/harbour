@@ -51,14 +51,12 @@ export default function Page ( p ) {
             <div className="">
                 <div className="itv-questions">
                     <div>
-                        <h2 style={{ color: "var(--dorange)", fontStyle: "italic" }}>1.</h2>
                         <h2 style={{ color: "var(--dorange)", fontStyle: "italic" }}>{ page.oneQ }</h2>
                         <p>{ page.oneA }</p>
                     </div>
                     <Spacer h="50px"/>
 
                     <div>
-                        <h2 style={{ color: "var(--dorange)", fontStyle: "italic" }}>2.</h2>
                         <h2 style={{ color: "var(--dorange)", fontStyle: "italic" }}>My average day.</h2>
                         <div className="avgDay">
                             { page.avgDay.map(day => (
@@ -76,21 +74,18 @@ export default function Page ( p ) {
                     <Spacer h="50px"/>
 
                     <div>
-                        <h2 style={{ color: "var(--dorange)", fontStyle: "italic" }}>3.</h2>
                         <h2 style={{ color: "var(--dorange)", fontStyle: "italic" }}>{ page.twoQ }</h2>
                         <p>{ page.twoA }</p>
                     </div>
                     <Spacer h="50px"/>
 
                     <div>
-                        <h2 style={{ color: "var(--dorange)", fontStyle: "italic" }}>4.</h2>
                         <h2 style={{ color: "var(--dorange)", fontStyle: "italic" }}>{ page.threeQ }</h2>
                         <p>{ page.threeA }</p>
                     </div>
                     <Spacer h="50px"/>
 
                     <div>
-                        <h2 style={{ color: "var(--dorange)", fontStyle: "italic" }}>5.</h2>
                         <h2 style={{ color: "var(--dorange)", fontStyle: "italic" }}>
                             {page.name}&#39;s starter pack:
                         </h2>
