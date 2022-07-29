@@ -16,6 +16,26 @@
             "threeP": "Be honest: You’ve been called a perfectionist. Probably many times. But that might not exactly be accurate. You understand that the tiniest details could make or break a project. More importantly, you understand which tiny details actually matter. What you’re after isn’t perfection—it’s heart.",
             "fourTitle": "The Artist believes in creativity as a powerful tool for changemaking.",
             "fourP": "You have a unique ability to make people feel heard and seen. And that’s the first step in making someone feel empowered. Whether or not you’re an artist in the conventional sense, you can best support the fight against climate change by mobilizing, educating, and inspiring those around you. Check out the resources below to find out how The Artist champions climate action.",
+            "inAction": [
+                {
+                    "img": "",
+                    "name": "Jane Doe",
+                    "career": "Cool job",
+                    "path": "testjane"
+                },
+                {
+                    "img": "",
+                    "name": "Jane Doe",
+                    "career": "Cool job",
+                    "path": "testjane"
+                },
+                {
+                    "img": "",
+                    "name": "Dom Petti",
+                    "career": "Math Man",
+                    "path": "dompetti"
+                }
+            ],
             "starterPack": "",
             "careers": "Digital Designer • Facilitator • Curator • Musician"
         },
@@ -35,6 +55,26 @@
             "threeP": "But let’s be clear: Your sensitivity is not a weakness. It’s your compass, and it’s your engine. Embrace it. It’s the very thing that drives you to explore difficult topics and make sense of them—for yourself and for those around you.",
             "fourTitle": "The Storyteller believes that stories are what move people.",
             "fourP": "Chances are, stories are what piqued your interest in climate action in the first place. Now, stories are going to be your most powerful tool in inspiring, educating, and driving the movement forward. Check out the resources below to find out how The Storyteller champions climate action.",
+            "inAction": [
+                {
+                    "img": "",
+                    "name": "Jane Doe",
+                    "career": "Cool job",
+                    "path": "testjane"
+                },
+                {
+                    "img": "",
+                    "name": "Jane Doe",
+                    "career": "Cool job",
+                    "path": "testjane"
+                },
+                {
+                    "img": "",
+                    "name": "Dom Petti",
+                    "career": "Math Man",
+                    "path": "dompetti"
+                }
+            ],
             "starterPack": "",
             "careers": "Climate Journalist • Documentary Filmmaker • Influencer • Climate Fiction Author"
         },
@@ -54,6 +94,26 @@
             "threeP": "This doesn’t mean that you’re rigid or inflexible, though. As a matter of fact, you are able to establish a feeling of structure and security where none previously existed. Or, in other words, you make the world a more comfortable and hospitable place for your peers.",
             "fourTitle": "The Caregiver is the beating heart of any social movement.",
             "fourP": "Your warmth, supportiveness, devotion, and attention to detail make you an invaluable asset to the climate movement. And a community without people like you is not a community at all. Check out the resources below to find out how The Caregiver champions climate action.",
+            "inAction": [
+                {
+                    "img": "",
+                    "name": "Jane Doe",
+                    "career": "Cool job",
+                    "path": "testjane"
+                },
+                {
+                    "img": "",
+                    "name": "Jane Doe",
+                    "career": "Cool job",
+                    "path": "testjane"
+                },
+                {
+                    "img": "",
+                    "name": "Dom Petti",
+                    "career": "Math Man",
+                    "path": "dompetti"
+                }
+            ],
             "starterPack": "",
             "careers": "Educator • Disaster Relief Worker • International Aid/Development Officer Conservationist • Advocate"
         },
@@ -73,6 +133,26 @@
             "threeP": "But it actually stems from one of your greatest strengths: your flexibility and adaptability. You can go from serious to playful at the snap of a finger, and you know exactly how to make just about anyone feel comfortable, seen, and appreciated.",
             "fourTitle": "Movements don’t exist without people like The Organizer.",
             "fourP": "You can really make a difference by helping to grow, mobilize, and of course, organize the climate movement ecosystem. You’re naturally charismatic and have a knack for leadership—just don’t let it get to your head. Check out the resources below to find out how The Organizer champions climate action.",
+            "inAction": [
+                {
+                    "img": "",
+                    "name": "Jane Doe",
+                    "career": "Cool job",
+                    "path": "testjane"
+                },
+                {
+                    "img": "",
+                    "name": "Jane Doe",
+                    "career": "Cool job",
+                    "path": "testjane"
+                },
+                {
+                    "img": "",
+                    "name": "Dom Petti",
+                    "career": "Math Man",
+                    "path": "dompetti"
+                }
+            ],
             "starterPack": "",
             "careers": "Advocacy Professional • Union Representative • Movement Founder March Leader • Politician"
         },
@@ -92,6 +172,26 @@
             "threeP": "Some people might call you an idealist. And you’d probably call them buzzkills. More often than not, you’re usually able to see your ambitions through and succeed, despite your lofty goals.",
             "fourTitle": "The Architect stands out as the originator of big and exciting ideas.",
             "fourP": "When it comes to climate action, there’s literally no time for pessimism. Whether you’re designing systems or inventing gadgets, you can be a powerful ally—and source of inspiration—to those in the climate movement ecosystem. Check out the resources below to find out how The Architect champions climate action.",
+            "inAction": [
+                {
+                    "img": "",
+                    "name": "Jane Doe",
+                    "career": "Cool job",
+                    "path": "testjane"
+                },
+                {
+                    "img": "",
+                    "name": "Jane Doe",
+                    "career": "Cool job",
+                    "path": "testjane"
+                },
+                {
+                    "img": "",
+                    "name": "Dom Petti",
+                    "career": "Math Man",
+                    "path": "dompetti"
+                }
+            ],
             "starterPack": "",
             "careers": "Climate Tech Founder • Strategist • Convenor • Environmental Lawyer • Green Asset Manager Policy Analyst • Energy Sector Executive • Politician"
         },
@@ -111,6 +211,26 @@
             "threeP": "Your dedication and focus, however, is anything but narrow-mindedness. You welcome and embrace new people and novel sources of information, even when they challenge your preconceived notions. In fact, that’s probably your favourite part.",
             "fourTitle": "The Scientist provides the backbone of the climate movement.",
             "fourP": "And we’re not just talking about “scientists” in the institutional sense. Anyone from a researcher to a traditional knowledge keeper fits the bill. Because ultimately, it’s people like you who are figuring out what’s happening and proposing solutions. Check out the resources below to find out how The Scientist champions climate action.",
+            "inAction": [
+                {
+                    "img": "",
+                    "name": "Jane Doe",
+                    "career": "Cool job",
+                    "path": "testjane"
+                },
+                {
+                    "img": "",
+                    "name": "Jane Doe",
+                    "career": "Cool job",
+                    "path": "testjane"
+                },
+                {
+                    "img": "",
+                    "name": "Dom Petti",
+                    "career": "Math Man",
+                    "path": "dompetti"
+                }
+            ],
             "starterPack": "",
             "careers": "Researcher • Start-up Founder • Climate Science Journalist Science Communicator • Energy Industry Process Engineer"
         },
@@ -130,6 +250,26 @@
             "threeP": "You can probably think of a couple times when your risk-taking tendencies have landed you in hot water. But, more often than not, it’s precisely your initiative that gives you an advantage in your endeavours. And who’s afraid of a little hot water?",
             "fourTitle": "The Entrepreneur can help imagine a more sustainable and prosperous world.",
             "fourP": "A wildly creative mind paired with a can-do attitude equals the ideal person for identifying the countless opportunities for improvement in our world that have been revealed by the climate crisis. By all means, let’s tear down the problematic parts of our current systems—but people like you are going to come up with the things that will take their place. Check out the resources below to find out how The Entrepreneur champions climate action.",
+            "inAction": [
+                {
+                    "img": "",
+                    "name": "Jane Doe",
+                    "career": "Cool job",
+                    "path": "testjane"
+                },
+                {
+                    "img": "",
+                    "name": "Jane Doe",
+                    "career": "Cool job",
+                    "path": "testjane"
+                },
+                {
+                    "img": "",
+                    "name": "Dom Petti",
+                    "career": "Math Man",
+                    "path": "dompetti"
+                }
+            ],
             "starterPack": "",
             "careers": "Non-Profit Director • Start-up/Social Enterprise Founder • Program Designer • Politician"
         },
@@ -149,6 +289,26 @@
             "threeP": "Does the status quo suck sometimes? Yes, of course. But you’re not interested in throwing the baby out with the bathwater. You just want to identify what works and what doesn’t—and there’s real value in that.",
             "fourTitle": "The Reformer can help us define what we are fighting for.",
             "fourP": "When it comes to the climate crisis, it’s clear that our systems are failing us. But if you can imagine a better world for us, it might just become a blueprint for our future. Check out the resources below to find out how The Reformer champions climate action.",
+            "inAction": [
+                {
+                    "img": "",
+                    "name": "Jane Doe",
+                    "career": "Cool job",
+                    "path": "testjane"
+                },
+                {
+                    "img": "",
+                    "name": "Jane Doe",
+                    "career": "Cool job",
+                    "path": "testjane"
+                },
+                {
+                    "img": "",
+                    "name": "Dom Petti",
+                    "career": "Math Man",
+                    "path": "dompetti"
+                }
+            ],
             "starterPack": "",
             "careers": "Policy Analyst • Environmental Lawyer • Sustainability Consultant • Politician Non-Profit Director • Partnerships / Philanthropy Manager"
         }

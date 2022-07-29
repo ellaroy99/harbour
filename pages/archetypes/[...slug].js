@@ -1,11 +1,11 @@
 import Head from 'next/head';
-import content from '../assets/data/archetype-pages.json';
+import content from '../../assets/data/archetype-pages.json';
 import React from "react"
 //import Seo from "../components/seo"
 import { useRef, useEffect, useState } from 'react'
 
-import { Nav, Footer, Layout, Spacer, Divider } from "../components/meta"
-import Filler from "../assets/img/tristan-abt.png";
+import { Nav, Footer, Layout, Spacer, Divider } from "../../components/meta"
+import Filler from "../../assets/img/tristan-abt.png";
 
 export default function Page( p ) {
 
@@ -107,25 +107,25 @@ export default function Page( p ) {
 
         <div className="arch-profile">
             <div>
-                <img src={Filler} />
-                <h3> Name Surname </h3>
-                <p> <em> Career Name </em> </p>
+                <img src={ page.inAction[0].img } />
+                <h3> { page.inAction[0].name }</h3>
+                <p> <em> { page.inAction[0].career } </em> </p>
                 <Spacer h="15px" />
-                <a className="arrow-link"> View Profile </a>
+                <a className="arrow-link" href={page.inAction[0].path}> View Profile </a>
             </div>
             <div>
-                <img src={Filler} />
-                <h3> Name Surname </h3>
-                <p> <em> Career Name </em> </p>
+                <img src={ page.inAction[1].img } />
+                <h3> { page.inAction[1].name }</h3>
+                <p> <em> { page.inAction[1].career } </em> </p>
                 <Spacer h="15px" />
-                <a className="arrow-link"> View Profile </a>
+                <a className="arrow-link" href={page.inAction[1].path}> View Profile </a>
             </div>
             <div>
-                <img src={Filler} />
-                <h3> Name Surname </h3>
-                <p> <em> Career Name </em> </p>
+                <img src={ page.inAction[2].img } />
+                <h3> { page.inAction[2].name }</h3>
+                <p> <em> { page.inAction[2].career } </em> </p>
                 <Spacer h="15px" />
-                <a className="arrow-link"> View Profile </a>
+                <a className="arrow-link" href={page.inAction[2].path}> View Profile </a>
             </div>
 
             <Divider b="-120px"/>

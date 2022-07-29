@@ -1,0 +1,124 @@
+{
+    "pages": [
+        {
+            "name": "Jane Doe",
+            "path": "/testjane",
+            "seoDesc": "This is SEO description",
+            "headline": "Interesting headline",
+            "headerimg": "https://res.cloudinary.com/mymediacreative/image/upload/v1645693934/blog-placeholder_csxpbc.png",
+            "age": "32",
+            "occupation": "Job Name",
+            "intro": "Introductory paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+            "oneQ": "This is the first question",
+            "oneA": "This is the first answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+            "avgDay": [
+                {
+                    "time": "9:00 AM",
+                    "activity": "Activity",
+                    "description": "Activity description"
+                },
+                {
+                    "time": "9:00 AM",
+                    "activity": "Activity",
+                    "description": "Activity description"
+                },
+                {
+                    "time": "9:00 AM",
+                    "activity": "Activity",
+                    "description": "Activity description"
+                },
+                {
+                    "time": "9:00 AM",
+                    "activity": "Activity",
+                    "description": "Activity description"
+                }
+            ],
+            "twoQ": "This is the second question",
+            "twoA": "This is the second answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+            "threeQ": "This is the third question",
+            "threeA": "This is the third answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+            "starterPack": [
+                {
+                    "title": "Resource Title",
+                    "type": "Resource Type",
+                    "link": "https://github.com"
+                },
+                {
+                    "title": "Resource Title",
+                    "type": "Resource Type",
+                    "link": "https://github.com"
+                },
+                {
+                    "title": "Resource Title",
+                    "type": "Resource Type",
+                    "link": "https://github.com"
+                },
+                {
+                    "title": "Resource Title",
+                    "type": "Resource Type",
+                    "link": "https://github.com"
+                }
+            ]
+        },
+        {
+            "name": "Dom Petti",
+            "path": "/dompetti",
+            "seoDesc": "This is SEO description",
+            "headline": "a guy with a camera",
+            "headerimg": "https://res.cloudinary.com/mymediacreative/image/upload/v1645693934/blog-placeholder_csxpbc.png",
+            "age": "23",
+            "occupation": "Math Man",
+            "intro": "Introductory paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+            "oneQ": "This is the first question",
+            "oneA": "This is the first answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+            "avgDay": [
+                {
+                    "time": "8:00 AM",
+                    "activity": "Activity",
+                    "description": "Activity description"
+                },
+                {
+                    "time": "9:00 AM",
+                    "activity": "Activity",
+                    "description": "Activity description"
+                },
+                {
+                    "time": "10:00 AM",
+                    "activity": "Activity",
+                    "description": "Activity description"
+                },
+                {
+                    "time": "11:00 AM",
+                    "activity": "Activity",
+                    "description": "Activity description"
+                }
+            ],
+            "twoQ": "This is the second question",
+            "twoA": "This is the second answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+            "threeQ": "This is the third question",
+            "threeA": "This is the third answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+            "starterPack": [
+                {
+                    "title": "Resource Title",
+                    "type": "Resource Type",
+                    "link": "https://github.com"
+                },
+                {
+                    "title": "Resource Title",
+                    "type": "Resource Type",
+                    "link": "https://github.com"
+                },
+                {
+                    "title": "Resource Title",
+                    "type": "Resource Type",
+                    "link": "https://github.com"
+                },
+                {
+                    "title": "Resource Title",
+                    "type": "Resource Type",
+                    "link": "https://github.com"
+                }
+            ]
+        }
+    ]
+}

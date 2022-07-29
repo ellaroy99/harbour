@@ -18,7 +18,7 @@ const ArchCard = ({ arch }) => {
         <div className="arch-content">
             <h1>{arch.name}</h1>
             <Spacer h="5px" />
-            <Link href={arch.slug}>
+            <Link href={"archetypes/" + arch.slug}>
                 <a className="arrow-link">
                     Read More
                 </a>
