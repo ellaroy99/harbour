@@ -24,7 +24,7 @@ const About = ({ homepage }) => {
     let liam    = { name: "Liam Chung",
                     image: "https://res.cloudinary.com/mymediacreative/image/upload/c_scale,w_800/v1657729362/the%20harbour/about%20page/Liam_w9pgs7.png",
                     li: "https://www.linkedin.com/in/liam-chung-9121a4151/",
-                    desc: <>"A little quote about what the harbour means to Boss Man Liam"</>,  };
+                    desc: <>"A little quote about what the harbour means to Liam"</>,  };
 
   return (
     <>
