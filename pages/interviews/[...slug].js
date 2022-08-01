@@ -95,7 +95,7 @@ export default function Page ( p ) {
                                         <div>
                                             <h3>{res.title}</h3>
                                             <p>{res.type}</p>
-                                            <div style={{transform:"translateY(10px)"}}><a className="arrow-link" href={res.link}>View Resource</a></div>
+                                            <button className="arrow-link" style={{}}><a href={res.link}>View Resource</a></button>
                                         </div>
                                     </>
                                 )

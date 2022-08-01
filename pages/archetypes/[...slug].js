@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import content from '../../assets/data/archetype-pages.json';
 import React from "react"
+import dynamic from "next/dynamic"
+const ReactPlayer = dynamic(() => import("react-player"), {ssr: false});
 //import Seo from "../components/seo"
 import { useRef, useEffect, useState } from 'react'
 
@@ -99,33 +101,38 @@ export default function Page( p ) {
       <div style={{ textAlign: "center" }}>
             <Spacer h="30px" />
         <h1>{page.title} in Action</h1>
-        <p>We met with dozens of young leaders across the country to explore the different ways you can <br/>
-            take action against climate change. Here are some of their stories.</p>
-        <img src={Filler}/>
-
-          <Spacer h="100px" />
-
+        <p>{page.inActionBlurb}</p>
+        <Spacer h="20px" />
+        <div className="in-action-vid">
+            <ReactPlayer
+                url={page.inActionVid}
+                controls={true}
+                width=""
+                height=""
+            />
+        </div>
+        <Spacer h="20px" />
         <div className="arch-profile">
             <div>
                 <img src={ page.inAction[0].img } />
                 <h3> { page.inAction[0].name }</h3>
                 <p> <em> { page.inAction[0].career } </em> </p>
                 <Spacer h="15px" />
-                <a className="arrow-link" href={page.inAction[0].path}> View Profile </a>
+                <a className="arrow-link" href={"/interviews" + page.inAction[0].path}> View Profile </a>
             </div>
             <div>
                 <img src={ page.inAction[1].img } />
                 <h3> { page.inAction[1].name }</h3>
                 <p> <em> { page.inAction[1].career } </em> </p>
                 <Spacer h="15px" />
-                <a className="arrow-link" href={page.inAction[1].path}> View Profile </a>
+                <a className="arrow-link" href={"/interviews" + page.inAction[1].path}> View Profile </a>
             </div>
             <div>
                 <img src={ page.inAction[2].img } />
                 <h3> { page.inAction[2].name }</h3>
                 <p> <em> { page.inAction[2].career } </em> </p>
                 <Spacer h="15px" />
-                <a className="arrow-link" href={page.inAction[2].path}> View Profile </a>
+                <a className="arrow-link" href={"/interviews" + page.inAction[2].path}> View Profile </a>
             </div>
 
             <Divider b="-120px"/>

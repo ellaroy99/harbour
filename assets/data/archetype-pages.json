@@ -18,25 +18,26 @@
             "fourP": "You have a unique ability to make people feel heard and seen. And that’s the first step in making someone feel empowered. Whether or not you’re an artist in the conventional sense, you can best support the fight against climate change by mobilizing, educating, and inspiring those around you. Check out the resources below to find out how The Artist champions climate action.",
             "inAction": [
                 {
-                    "img": "",
+                    "img": "https://res.cloudinary.com/mymediacreative/image/upload/v1645693934/blog-placeholder_csxpbc.png",
                     "name": "Jane Doe",
                     "career": "Cool job",
-                    "path": "testjane"
+                    "path": "/testjane"
                 },
                 {
-                    "img": "",
+                    "img": "https://res.cloudinary.com/mymediacreative/image/upload/v1645693934/blog-placeholder_csxpbc.png",
                     "name": "Jane Doe",
                     "career": "Cool job",
-                    "path": "testjane"
+                    "path": "/testjane"
                 },
                 {
-                    "img": "",
+                    "img": "https://res.cloudinary.com/mymediacreative/image/upload/v1645693934/blog-placeholder_csxpbc.png",
                     "name": "Tony",
                     "career": "Math Man",
-                    "path": "tony"
+                    "path": "/tony"
                 }
             ],
-            "inActionBlurb": "",
+            "inActionBlurb": "We met with dozens of young leaders across the country to explore the different ways you can <br/> take action against climate change. Here are some of their stories.",
+            "inActionVid": "https://vimeo.com/681645746?embedded=true&source=vimeo_logo&owner=167818781",
             "starterPack": "",
             "careers": "Digital Designer • Facilitator • Curator • Musician"
         },
@@ -61,21 +62,23 @@
                     "img": "",
                     "name": "Jane Doe",
                     "career": "Cool job",
-                    "path": "testjane"
+                    "path": "/testjane"
                 },
                 {
                     "img": "",
                     "name": "Jane Doe",
                     "career": "Cool job",
-                    "path": "testjane"
+                    "path": "/testjane"
                 },
                 {
                     "img": "",
                     "name": "Dom Petti",
                     "career": "Math Man",
-                    "path": "dompetti"
+                    "path": "/dompetti"
                 }
             ],
+            "inActionBlurb": "We met with dozens of young leaders across the country to explore the different ways you can <br/> take action against climate change. Here are some of their stories.",
+            "inActionVid": "https://vimeo.com/681645746?embedded=true&source=vimeo_logo&owner=167818781",
             "starterPack": "",
             "careers": "Climate Journalist • Documentary Filmmaker • Influencer • Climate Fiction Author"
         },
@@ -100,21 +103,23 @@
                     "img": "",
                     "name": "Jane Doe",
                     "career": "Cool job",
-                    "path": "testjane"
+                    "path": "/testjane"
                 },
                 {
                     "img": "",
                     "name": "Jane Doe",
                     "career": "Cool job",
-                    "path": "testjane"
+                    "path": "/testjane"
                 },
                 {
                     "img": "",
                     "name": "Dom Petti",
                     "career": "Math Man",
-                    "path": "dompetti"
+                    "path": "/dompetti"
                 }
             ],
+            "inActionBlurb": "We met with dozens of young leaders across the country to explore the different ways you can <br/> take action against climate change. Here are some of their stories.",
+            "inActionVid": "https://vimeo.com/681645746?embedded=true&source=vimeo_logo&owner=167818781",
             "starterPack": "",
             "careers": "Educator • Disaster Relief Worker • International Aid/Development Officer Conservationist • Advocate"
         },
@@ -139,21 +144,23 @@
                     "img": "",
                     "name": "Jane Doe",
                     "career": "Cool job",
-                    "path": "testjane"
+                    "path": "/testjane"
                 },
                 {
                     "img": "",
                     "name": "Jane Doe",
                     "career": "Cool job",
-                    "path": "testjane"
+                    "path": "/testjane"
                 },
                 {
                     "img": "",
                     "name": "Dom Petti",
                     "career": "Math Man",
-                    "path": "dompetti"
+                    "path": "/dompetti"
                 }
             ],
+            "inActionBlurb": "We met with dozens of young leaders across the country to explore the different ways you can <br/> take action against climate change. Here are some of their stories.",
+            "inActionVid": "https://vimeo.com/681645746?embedded=true&source=vimeo_logo&owner=167818781",
             "starterPack": "",
             "careers": "Advocacy Professional • Union Representative • Movement Founder March Leader • Politician"
         },
@@ -178,21 +185,23 @@
                     "img": "",
                     "name": "Jane Doe",
                     "career": "Cool job",
-                    "path": "testjane"
+                    "path": "/testjane"
                 },
                 {
                     "img": "",
                     "name": "Jane Doe",
                     "career": "Cool job",
-                    "path": "testjane"
+                    "path": "/testjane"
                 },
                 {
                     "img": "",
                     "name": "Dom Petti",
                     "career": "Math Man",
-                    "path": "dompetti"
+                    "path": "/dompetti"
                 }
             ],
+            "inActionBlurb": "We met with dozens of young leaders across the country to explore the different ways you can <br/> take action against climate change. Here are some of their stories.",
+            "inActionVid": "https://vimeo.com/681645746?embedded=true&source=vimeo_logo&owner=167818781",
             "starterPack": "",
             "careers": "Climate Tech Founder • Strategist • Convenor • Environmental Lawyer • Green Asset Manager Policy Analyst • Energy Sector Executive • Politician"
         },
@@ -217,21 +226,23 @@
                     "img": "",
                     "name": "Jane Doe",
                     "career": "Cool job",
-                    "path": "testjane"
+                    "path": "/testjane"
                 },
                 {
                     "img": "",
                     "name": "Jane Doe",
                     "career": "Cool job",
-                    "path": "testjane"
+                    "path": "/testjane"
                 },
                 {
                     "img": "",
                     "name": "Dom Petti",
                     "career": "Math Man",
-                    "path": "dompetti"
+                    "path": "/dompetti"
                 }
             ],
+            "inActionBlurb": "We met with dozens of young leaders across the country to explore the different ways you can <br/> take action against climate change. Here are some of their stories.",
+            "inActionVid": "https://vimeo.com/681645746?embedded=true&source=vimeo_logo&owner=167818781",
             "starterPack": "",
             "careers": "Researcher • Start-up Founder • Climate Science Journalist Science Communicator • Energy Industry Process Engineer"
         },
@@ -253,24 +264,26 @@
             "fourP": "A wildly creative mind paired with a can-do attitude equals the ideal person for identifying the countless opportunities for improvement in our world that have been revealed by the climate crisis. By all means, let’s tear down the problematic parts of our current systems—but people like you are going to come up with the things that will take their place. Check out the resources below to find out how The Entrepreneur champions climate action.",
             "inAction": [
                 {
-                    "img": "",
+                    "img": "https://res.cloudinary.com/mymediacreative/image/upload/v1645693934/blog-placeholder_csxpbc.png",
                     "name": "Jane Doe",
                     "career": "Cool job",
-                    "path": "testjane"
+                    "path": "/testjane"
                 },
                 {
-                    "img": "",
+                    "img": "https://res.cloudinary.com/mymediacreative/image/upload/v1645693934/blog-placeholder_csxpbc.png",
                     "name": "Jane Doe",
                     "career": "Cool job",
-                    "path": "testjane"
+                    "path": "/testjane"
                 },
                 {
-                    "img": "",
+                    "img": "https://res.cloudinary.com/mymediacreative/image/upload/v1645693934/blog-placeholder_csxpbc.png",
                     "name": "Dom Petti",
                     "career": "Math Man",
-                    "path": "dompetti"
+                    "path": "/dompetti"
                 }
             ],
+            "inActionBlurb": "We met with dozens of young leaders across the country to explore the different ways you can <br/> take action against climate change. Here are some of their stories.",
+            "inActionVid": "https://vimeo.com/681645746?embedded=true&source=vimeo_logo&owner=167818781",
             "starterPack": "",
             "careers": "Non-Profit Director • Start-up/Social Enterprise Founder • Program Designer • Politician"
         },
@@ -295,21 +308,23 @@
                     "img": "",
                     "name": "Jane Doe",
                     "career": "Cool job",
-                    "path": "testjane"
+                    "path": "/testjane"
                 },
                 {
                     "img": "",
                     "name": "Jane Doe",
                     "career": "Cool job",
-                    "path": "testjane"
+                    "path": "/testjane"
                 },
                 {
                     "img": "",
                     "name": "Dom Petti",
                     "career": "Math Man",
-                    "path": "dompetti"
+                    "path": "/dompetti"
                 }
             ],
+            "inActionBlurb": "We met with dozens of young leaders across the country to explore the different ways you can <br/> take action against climate change. Here are some of their stories.",
+            "inActionVid": "https://vimeo.com/681645746?embedded=true&source=vimeo_logo&owner=167818781",
             "starterPack": "",
             "careers": "Policy Analyst • Environmental Lawyer • Sustainability Consultant • Politician Non-Profit Director • Partnerships / Philanthropy Manager"
         }
