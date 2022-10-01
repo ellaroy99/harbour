@@ -1,122 +1,61 @@
 {
     "pages": [
         {
-            "name": "Jane Doe",
-            "path": "/testjane",
+            "name": "Emma",
+            "path": "/emma",
             "seoDesc": "This is SEO description",
-            "headline": "Cool headline",
-            "headerimg": "https://res.cloudinary.com/mymediacreative/image/upload/v1645693934/blog-placeholder_csxpbc.png",
-            "age": "32",
-            "occupation": "Job Name",
-            "intro": "Introductory paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
-            "oneQ": "This is the first question",
-            "oneA": "This is the first answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
-            "avgDay": [
-                {
-                    "time": "9:00 AM",
-                    "activity": "Activity",
-                    "description": "Activity description"
-                },
-                {
-                    "time": "9:00 AM",
-                    "activity": "Activity",
-                    "description": "Activity description"
-                },
-                {
-                    "time": "9:00 AM",
-                    "activity": "Activity",
-                    "description": "Activity description"
-                },
-                {
-                    "time": "9:00 AM",
-                    "activity": "Activity",
-                    "description": "Activity description"
-                }
-            ],
-            "twoQ": "This is the second question",
-            "twoA": "This is the second answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
-            "threeQ": "This is the third question",
-            "threeA": "This is the third answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+            "headline": "Reporter at The Narwhal",
+            "headerimg": "https://res.cloudinary.com/mymediacreative/image/upload/v1664632461/the%20harbour/interviews/CKL113EMMA-scaled_yilxgf.jpg",
+            "age": "26",
+            "occupation": "Reporter at The Narwhal",
+            "oneQ": "My climate origin story:",
+            "oneA": "My grade 12 year, my school counsellor had told me about this random journalism elective. I had been told to drop a more difficult course and to take an easier one. I had chosen the journalism class because I only had to write about 500 words a month and I thought, that’s easy! But very quickly, it started consuming my life. I had a scary thought one day when I was sitting in the newspaper office, thinking “I wish I could do this every day, all the time”. Within two months of giving it a try, I was sold on it. From there, I just kind of went through the pipeline – journalism school, internships etc. The second day of my second internship in Calgary, the Fort McMurray wildfires happened. Twenty-year-old me was thrown into wildfire evacuations, writing stories and trying to link climate science to what was happening there. A little while after that, I got offered the opportunity to do a project at the university, an investigative story on the impacts of the oil industry on people. It was called The Price of Oil. I knew that investigative journalism was something I was interested in, but it hadn't really occurred to me that the environment could be a serious investigative beat. But all of a sudden, I’m working on this super serious, in-depth and hard hitting investigation on environmental issues. This is when I thought, this is definitely what I want to do forever. It just so happened that this was happening as the public was also starting to get more interested in climate issues. By being a person who was interested in the same issues, I could fill the existing gap in coverage.",
+            "twoQ": "A useful skill of mine:",
+            "twoA": "I think a special tool of mine is the ability to break down complicated concepts and make them comprehensible to the average fifth grader. When I told my grade 12 physics teacher that  I was not going to go into STEM, he made it my solemn duty to explain science to the world and make it easier for people to understand. That stuck with me. I’m able to make things fun when appropriate, but also to break them down to a level that people find interesting and compelling, not just understandable. That ends up being the bread and butter of what I do.",
+            "threeQ": "A word of advice for Storytellers:",
+            "threeA": "For me, it's really about making sure that I'm doing everything I can to get people from different perspectives to the table. It's this concept that the Narwhal works with a lot. Complicating the narrative is often the easiest and shortest route to finishing a story but is something that highlights the differences between sides rather than attempting to bridge the gap between them. When you do journalism that way, you can often make conflicts worse or make it harder for people to see a resolution. So for me, it’s a constant process of steering my brain towards doing something that is harder but that ends up being better, like asking more thoughtful questions. Sometimes it's things like “What do you wish the other side understood about you?” Or “What do you think people misunderstand about you?” The other part of it is just trying to convince people who are already predisposed to think that I'm not going to listen to them, that I actually will. Sometimes that makes people angry. I did a profile interview with the progressive conservative environment minister who's not a beloved figure in the climate movement. People were upset with me about that. But my real and honest opinion is that we need everybody on all reasonable ends of the political spectrum to be involved in this discussion if we're going to find a way to make this work as a society. Hearing them out and fact checking everybody the same way is an important thing in making sure that our discussions are more complicated and nuanced and therefore more productive. My job is to expose you to different opinions and different ways of thinking. And by convincing people from more sides of an issue to trust me and tell me what they think, hopefully we can deliver that.",
             "starterPack": [
                 {
-                    "title": "Resource Title",
-                    "type": "Resource Type",
-                    "link": "https://github.com"
+                    "title": "Still Hopeful: Lessons from a Lifetime of Activism - Maude Barlow",
+                    "type": "Book",
+                    "link": "https://www.goodreads.com/en/book/show/59034563-still-hopeful"
                 },
                 {
-                    "title": "Resource Title",
-                    "type": "Resource Type",
-                    "link": "https://github.com"
+                    "title": "Grouse",
+                    "type": "Podcast",
+                    "link": "https://www.npr.org/podcasts/913607568/grouse"
                 },
                 {
-                    "title": "Resource Title",
-                    "type": "Resource Type",
-                    "link": "https://github.com"
-                },
-                {
-                    "title": "Resource Title",
-                    "type": "Resource Type",
-                    "link": "https://github.com"
+                    "title": " Toronto Star's reporting on Grassy Narrows ",
+                    "type": "Articles",
+                    "link": "https://www.thestar.com/news/grassy-narrows.html"
                 }
             ]
         },
         {
-            "name": "Tony",
-            "path": "/tony",
+            "name": "Kasha Sequoia Slavner",
+            "path": "/kasha",
             "seoDesc": "This is SEO description",
-            "headline": "a guy with a camera",
-            "headerimg": "https://res.cloudinary.com/mymediacreative/image/upload/v1646091923/about/Tony_2_bxu33u.png",
-            "age": "23",
-            "occupation": "Math Man",
-            "intro": "Introductory paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
-            "oneQ": "This is the first question",
-            "oneA": "This is the first answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
-            "avgDay": [
-                {
-                    "time": "8:00 AM",
-                    "activity": "Activity",
-                    "description": "Activity description"
-                },
-                {
-                    "time": "9:00 AM",
-                    "activity": "Activity",
-                    "description": "Activity description"
-                },
-                {
-                    "time": "10:00 AM",
-                    "activity": "Activity",
-                    "description": "Activity description"
-                },
-                {
-                    "time": "11:00 AM",
-                    "activity": "Activity",
-                    "description": "Activity description"
-                }
-            ],
-            "twoQ": "This is the second question",
-            "twoA": "This is the second answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
-            "threeQ": "This is the third question",
-            "threeA": "This is the third answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+            "headline": "",
+            "headerimg": "https://res.cloudinary.com/mymediacreative/image/upload/v1664632890/the%20harbour/interviews/Screen-Shot-2020-10-23-at-1.38.34-PM_jojz8u.png",
+            "age": "24",
+            "occupation": "Director of 1.5 Degrees of Peace, Founder of Global Sunrise Project",
+            "oneQ": "My climate origin story:",
+            "oneA": "I grew up with a single mom and she was kind of a strong activist in her own right. She would bring me along to all of her gatherings when I was little. By listening to the people that she surrounded herself with, the feminist groups or a lot of environmental groups, allowed me to absord those conversations and values. When I turned 14, I went to my very first gender equality conference of the United Nations, which was called the Commission on the Status of Women. As a young person who cared about the world around me, it was eye opening to learn that what I was seeing on the news was very one sided and wasn’t uplifting the stories of people who were really trying to transform their communities. It wasn’t showcasing how everyday people could make a difference despite all of these really overwhelming challenges that our world is faced with. That conference really sparked me to think about what I could do to create change and empower others to do the same. Through storytelling, I felt I could bring these stories to life and maybe empower others to take action too.",
+            "twoQ": "A useful skill of mine:",
+            "twoA": "Thinking back on it now, I've always been a quiet, shy, and introverted person that was quite interested in sitting back and observing. That side of my nature helps me to go into my work with a lot of sensitivity and mindfulness about the way that I tell stories and the way that I connect with people. I really want to be mindful about not imposing narratives on people, so it’s important to me to create a space where people can tell their own story. It surprised me that that is an integral part of what I do and my ability to be a filmmaker. With a lot of professions, it requires you to be more extroverted or play up a different side of your personality. It surprised me how valuable it is to let the most intuitive side of myself take the front seat when I’m filmmaking.",
+            "threeQ": "A word of advice for Storytellers:",
+            "threeA": "Something that I'm always conscious of, especially because I'm a filmmaker from the Global North, is trying to uplift the stories of those in the Global South. I think filmmaking is more of a collaborative process to me rather than imposing your own bias or your own narratives on other communities. I think filmmaking is my act of activism, the way that I hope to make change in the world. I want to be mindful of not just doing fly-in filmmaking. That is something that can happen a lot in the documentary field, going to a location for a very short period of time and extracting stories. So how can you really immerse yourself in a community? How can you gain trust? How can you build partnerships? This also comes into the post film-like impact, where I want to co-create call to action strategies or things that people can take action on. For that you have to understand what is most important to the communities that we're working with. How your own privilege plays into the stories that you’re telling is something that I’m very mindful of and that I want to caution other storytellers to be mindful of too.",
             "starterPack": [
                 {
-                    "title": "Resource Title",
-                    "type": "Resource Type",
-                    "link": "https://github.com"
+                    "title": "Meat the Future - Liz Marshall",
+                    "type": "Documentary",
+                    "link": "https://lizmars.com/portfolio/meat-the-future/"
                 },
                 {
-                    "title": "Resource Title",
-                    "type": "Resource Type",
-                    "link": "https://github.com"
-                },
-                {
-                    "title": "Resource Title",
-                    "type": "Resource Type",
-                    "link": "https://github.com"
-                },
-                {
-                    "title": "Resource Title",
-                    "type": "Resource Type",
-                    "link": "https://github.com"
+                    "title": "Earthrise Studio",
+                    "type": "Instagram Page",
+                    "link": "https://www.instagram.com/earthrise.studio"
                 }
             ]
         },
